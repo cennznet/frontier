@@ -8,9 +8,9 @@ license = "GPL-3.0-or-later WITH Classpath-exception-2.0"
 repository = "https://github.com/paritytech/frontier/"
 
 [dependencies]
-sp-core = { version = "4.0.0-dev", git = "https://github.com/paritytech/substrate" }
-sp-database = { version = "4.0.0-dev", git = "https://github.com/paritytech/substrate" }
-sp-runtime = { version = "4.0.0-dev", git = "https://github.com/paritytech/substrate" }
+sp-core = { rev = "2db18f864ae2bb50e60e497b7ac2c521daf83af6", git = "https://github.com/cennznet/substrate" }
+sp-database = { rev = "2db18f864ae2bb50e60e497b7ac2c521daf83af6", git = "https://github.com/cennznet/substrate" }
+sp-runtime = { rev = "2db18f864ae2bb50e60e497b7ac2c521daf83af6", git = "https://github.com/cennznet/substrate" }
 pallet-ethereum = { version = "4.0.0-dev", path = "../../frame/ethereum" }
 fp-storage = { version = "2.0.0-dev", path = "../../primitives/storage"}
 kvdb = "0.10.0"

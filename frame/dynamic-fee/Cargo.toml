@@ -10,18 +10,18 @@ license = "Apache-2.0"
 pallet-evm = { path = "../evm", version = "6.0.0-dev", default-features = false }
 codec = { package = "parity-scale-codec", version = "2.0.0", default-features = false }
 serde = { version = "1.0.101", optional = true }
-sp-std = { version = "4.0.0-dev", default-features = false, git = "https://github.com/paritytech/substrate" }
-sp-core = { version = "4.0.0-dev", default-features = false, git = "https://github.com/paritytech/substrate" }
-sp-runtime = { version = "4.0.0-dev", default-features = false, git = "https://github.com/paritytech/substrate" }
-sp-inherents = { version = "4.0.0-dev", default-features = false, git = "https://github.com/paritytech/substrate" }
-frame-system = { version = "4.0.0-dev", default-features = false, git = "https://github.com/paritytech/substrate" }
-frame-support = { version = "4.0.0-dev", default-features = false, git = "https://github.com/paritytech/substrate" }
+sp-std = { rev = "2db18f864ae2bb50e60e497b7ac2c521daf83af6", default-features = false, git = "https://github.com/cennznet/substrate" }
+sp-core = { rev = "2db18f864ae2bb50e60e497b7ac2c521daf83af6", default-features = false, git = "https://github.com/cennznet/substrate" }
+sp-runtime = { rev = "2db18f864ae2bb50e60e497b7ac2c521daf83af6", default-features = false, git = "https://github.com/cennznet/substrate" }
+sp-inherents = { rev = "2db18f864ae2bb50e60e497b7ac2c521daf83af6", default-features = false, git = "https://github.com/cennznet/substrate" }
+frame-system = { rev = "2db18f864ae2bb50e60e497b7ac2c521daf83af6", default-features = false, git = "https://github.com/cennznet/substrate" }
+frame-support = { rev = "2db18f864ae2bb50e60e497b7ac2c521daf83af6", default-features = false, git = "https://github.com/cennznet/substrate" }
 async-trait = "0.1"
 scale-info = { version = "1.0.0", default-features = false, features = ["derive"] }
 
 [dev-dependencies]
-pallet-timestamp = { version = "4.0.0-dev", default-features = false, git = "https://github.com/paritytech/substrate" }
-sp-io = { version = "4.0.0-dev", default-features = false, git = "https://github.com/paritytech/substrate" }
+pallet-timestamp = { rev = "2db18f864ae2bb50e60e497b7ac2c521daf83af6", default-features = false, git = "https://github.com/cennznet/substrate" }
+sp-io = { rev = "2db18f864ae2bb50e60e497b7ac2c521daf83af6", default-features = false, git = "https://github.com/cennznet/substrate" }
 
 [features]
 default = ["std"]

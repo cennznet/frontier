@@ -20,19 +20,19 @@ fc-rpc-core = { version = "1.1.0-dev", path = "../rpc-core" }
 fp-consensus = { version = "2.0.0-dev", path = "../../primitives/consensus" }
 fp-rpc = { version = "3.0.0-dev", path = "../../primitives/rpc" }
 fp-storage = { version = "2.0.0-dev", path = "../../primitives/storage"}
-sp-io = { version = "4.0.0-dev", git = "https://github.com/paritytech/substrate" }
-sp-runtime = { version = "4.0.0-dev", git = "https://github.com/paritytech/substrate" }
-sp-api = { version = "4.0.0-dev", git = "https://github.com/paritytech/substrate" }
-sp-transaction-pool = { version = "4.0.0-dev", git = "https://github.com/paritytech/substrate" }
-sc-transaction-pool = { version = "4.0.0-dev", git = "https://github.com/paritytech/substrate" }
-sp-storage = { version = "4.0.0-dev", git = "https://github.com/paritytech/substrate" }
-sp-blockchain = { version = "4.0.0-dev", git = "https://github.com/paritytech/substrate" }
-sp-block-builder = { version = "4.0.0-dev", git = "https://github.com/paritytech/substrate" }
-sc-transaction-pool-api = { version = "4.0.0-dev", git = "https://github.com/paritytech/substrate" }
-sc-service = { version = "0.10.0-dev", git = "https://github.com/paritytech/substrate" }
-sc-client-api = { version = "4.0.0-dev", git = "https://github.com/paritytech/substrate" }
-sc-rpc = { version = "4.0.0-dev", git = "https://github.com/paritytech/substrate" }
-sc-network = { version = "0.10.0-dev", git = "https://github.com/paritytech/substrate" }
+sp-io = { rev = "2db18f864ae2bb50e60e497b7ac2c521daf83af6", git = "https://github.com/cennznet/substrate" }
+sp-runtime = { rev = "2db18f864ae2bb50e60e497b7ac2c521daf83af6", git = "https://github.com/cennznet/substrate" }
+sp-api = { rev = "2db18f864ae2bb50e60e497b7ac2c521daf83af6", git = "https://github.com/cennznet/substrate" }
+sp-transaction-pool = { rev = "2db18f864ae2bb50e60e497b7ac2c521daf83af6", git = "https://github.com/cennznet/substrate" }
+sc-transaction-pool = { rev = "2db18f864ae2bb50e60e497b7ac2c521daf83af6", git = "https://github.com/cennznet/substrate" }
+sp-storage = { rev = "2db18f864ae2bb50e60e497b7ac2c521daf83af6", git = "https://github.com/cennznet/substrate" }
+sp-blockchain = { rev = "2db18f864ae2bb50e60e497b7ac2c521daf83af6", git = "https://github.com/cennznet/substrate" }
+sp-block-builder = { rev = "2db18f864ae2bb50e60e497b7ac2c521daf83af6", git = "https://github.com/cennznet/substrate" }
+sc-transaction-pool-api = { rev = "2db18f864ae2bb50e60e497b7ac2c521daf83af6", git = "https://github.com/cennznet/substrate" }
+sc-service = { version = "0.10.0-dev", git = "https://github.com/cennznet/substrate" }
+sc-client-api = { rev = "2db18f864ae2bb50e60e497b7ac2c521daf83af6", git = "https://github.com/cennznet/substrate" }
+sc-rpc = { rev = "2db18f864ae2bb50e60e497b7ac2c521daf83af6", git = "https://github.com/cennznet/substrate" }
+sc-network = { rev = "2db18f864ae2bb50e60e497b7ac2c521daf83af6", version = "0.10.0-dev", git = "https://github.com/cennznet/substrate" }
 pallet-evm = { version = "6.0.0-dev", path = "../../frame/evm" }
 fp-evm = { version = "3.0.0-dev", path = "../../primitives/evm" }
 pallet-ethereum = { version = "4.0.0-dev", path = "../../frame/ethereum" }

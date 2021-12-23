@@ -9,9 +9,9 @@ repository = "https://github.com/paritytech/frontier/"
 description = "Curve25519 elliptic curve precompiles for EVM pallet."
 
 [dependencies]
-sp-core = { version = "4.0.0-dev", default-features = false, git = "https://github.com/paritytech/substrate" }
-sp-io = { version = "4.0.0-dev", default-features = false, git = "https://github.com/paritytech/substrate" }
-frame-support = { version = "4.0.0-dev", default-features = false, git = "https://github.com/paritytech/substrate" }
+sp-core = { rev = "2db18f864ae2bb50e60e497b7ac2c521daf83af6", default-features = false, git = "https://github.com/cennznet/substrate" }
+sp-io = { rev = "2db18f864ae2bb50e60e497b7ac2c521daf83af6", default-features = false, git = "https://github.com/cennznet/substrate" }
+frame-support = { rev = "2db18f864ae2bb50e60e497b7ac2c521daf83af6", default-features = false, git = "https://github.com/cennznet/substrate" }
 fp-evm = { version = "3.0.0-dev", default-features = false, path = "../../../../primitives/evm" }
 codec = { package = "parity-scale-codec", version = "2.0.0", default-features = false }
 
