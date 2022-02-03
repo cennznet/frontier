@@ -35,7 +35,6 @@ sc-rpc = { rev = "2db18f864ae2bb50e60e497b7ac2c521daf83af6", git = "https://gith
 sc-network = { rev = "2db18f864ae2bb50e60e497b7ac2c521daf83af6", version = "0.10.0-dev", git = "https://github.com/cennznet/substrate" }
 pallet-evm = { version = "6.0.0-dev", path = "../../frame/evm" }
 fp-evm = { version = "3.0.0-dev", path = "../../primitives/evm" }
-pallet-ethereum = { version = "4.0.0-dev", path = "../../frame/ethereum" }
 ethereum = { version = "0.11.1", features = ["with-codec"] }
 codec = { package = "parity-scale-codec", version = "2.0.0" }
 rlp = "0.5"
@@ -46,6 +45,7 @@ libsecp256k1 = "0.3"
 rand = "0.7"
 lru = "0.6.6"
 parking_lot = "0.11.1"
+tokio = { version = "1.14", features = [ "sync" ] }
 
 [features]
 rpc_binary_search_estimate = []

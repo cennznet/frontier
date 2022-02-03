@@ -1530,7 +1530,6 @@ dependencies = [
  "fp-storage",
  "kvdb",
  "kvdb-rocksdb",
- "pallet-ethereum",
  "parity-scale-codec",
  "parking_lot",
  "sp-core 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
@@ -1577,7 +1576,6 @@ dependencies = [
  "libsecp256k1 0.3.5",
  "log",
  "lru 0.6.6",
- "pallet-ethereum",
  "pallet-evm",
  "parity-scale-codec",
  "parking_lot",
@@ -1598,6 +1596,7 @@ dependencies = [
  "sp-runtime 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
  "sp-storage 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
  "sp-transaction-pool 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
+ "tokio",
 ]
 
 [[package]]
@@ -1774,6 +1773,9 @@ dependencies = [
 [[package]]
 name = "fp-storage"
 version = "2.0.0"
+dependencies = [
+ "parity-scale-codec",
+]
 
 [[package]]
 name = "frame-benchmarking"
@@ -1965,6 +1967,7 @@ dependencies = [
  "fc-rpc-core",
  "fp-consensus",
  "fp-rpc",
+ "fp-storage",
  "frame-benchmarking",
  "frame-benchmarking-cli",
  "frontier-template-runtime",
