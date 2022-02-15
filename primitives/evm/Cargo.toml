@@ -17,7 +17,7 @@ sp-core = { rev = "2db18f864ae2bb50e60e497b7ac2c521daf83af6", git = "https://git
 sp-std = { rev = "2db18f864ae2bb50e60e497b7ac2c521daf83af6", git = "https://github.com/cennznet/substrate", default-features = false }
 serde = { version = "1.0.101", optional = true, features = ["derive"] }
 codec = { package = "parity-scale-codec", version = "2.0.0", default-features = false }
-evm = { version = "0.33.1", default-features = false, features = ["with-codec"] }
+evm = { git = "https://github.com/rust-blockchain/evm", rev = "52d5fe5d1fd665a495ea34cc67c5f0c6bc6dd23e", default-features = false, features = ["with-codec"] }
 
 [features]
 default = ["std"]
