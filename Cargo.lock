@@ -1510,17 +1510,17 @@ dependencies = [
  "futures 0.3.17",
  "log",
  "parity-scale-codec",
- "sc-client-api 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sc-consensus 0.10.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-api 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-block-builder 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-blockchain 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-consensus 0.10.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-core 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-inherents 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-runtime 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
+ "sc-client-api",
+ "sc-consensus",
+ "sp-api",
+ "sp-block-builder",
+ "sp-blockchain",
+ "sp-consensus",
+ "sp-core",
+ "sp-inherents",
+ "sp-runtime",
  "sp-timestamp",
- "substrate-prometheus-endpoint 0.10.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
+ "substrate-prometheus-endpoint",
 ]
 
 [[package]]
@@ -1532,9 +1532,9 @@ dependencies = [
  "kvdb-rocksdb",
  "parity-scale-codec",
  "parking_lot",
- "sp-core 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-database 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-runtime 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
+ "sp-core",
+ "sp-database",
+ "sp-runtime",
 ]
 
 [[package]]
@@ -1548,10 +1548,10 @@ dependencies = [
  "futures 0.3.17",
  "futures-timer 3.0.2",
  "log",
- "sc-client-api 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-api 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-blockchain 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-runtime 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
+ "sc-client-api",
+ "sp-api",
+ "sp-blockchain",
+ "sp-runtime",
 ]
 
 [[package]]
@@ -1582,20 +1582,20 @@ dependencies = [
  "rand 0.7.3",
  "rlp",
  "rustc-hex",
- "sc-client-api 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sc-network 0.10.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sc-rpc 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sc-service 0.10.0-dev (git+https://github.com/cennznet/substrate)",
- "sc-transaction-pool 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sc-transaction-pool-api 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
+ "sc-client-api",
+ "sc-network",
+ "sc-rpc",
+ "sc-service",
+ "sc-transaction-pool",
+ "sc-transaction-pool-api",
  "sha3 0.8.2",
- "sp-api 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-block-builder 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-blockchain 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-io 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-runtime 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-storage 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-transaction-pool 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
+ "sp-api",
+ "sp-block-builder",
+ "sp-blockchain",
+ "sp-io",
+ "sp-runtime",
+ "sp-storage",
+ "sp-transaction-pool",
  "tokio",
 ]
 
@@ -1697,14 +1697,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "fork-tree"
-version = "3.0.0"
-source = "git+https://github.com/cennznet/substrate#2db18f864ae2bb50e60e497b7ac2c521daf83af6"
-dependencies = [
- "parity-scale-codec",
-]
-
-[[package]]
 name = "form_urlencoded"
 version = "1.0.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1722,9 +1714,9 @@ dependencies = [
  "parity-scale-codec",
  "rlp",
  "sha3 0.8.2",
- "sp-core 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-runtime 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-std 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
+ "sp-core",
+ "sp-runtime",
+ "sp-std",
 ]
 
 [[package]]
@@ -1734,8 +1726,8 @@ dependencies = [
  "evm",
  "parity-scale-codec",
  "serde",
- "sp-core 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-std 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
+ "sp-core",
+ "sp-std",
 ]
 
 [[package]]
@@ -1747,11 +1739,11 @@ dependencies = [
  "fp-evm",
  "parity-scale-codec",
  "scale-info",
- "sp-api 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-core 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-io 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-runtime 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-std 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
+ "sp-api",
+ "sp-core",
+ "sp-io",
+ "sp-runtime",
+ "sp-std",
 ]
 
 [[package]]
@@ -1765,9 +1757,9 @@ dependencies = [
  "scale-info",
  "serde",
  "sha3 0.8.2",
- "sp-core 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-io 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-runtime 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
+ "sp-core",
+ "sp-io",
+ "sp-runtime",
 ]
 
 [[package]]
@@ -1789,12 +1781,12 @@ dependencies = [
  "parity-scale-codec",
  "paste",
  "scale-info",
- "sp-api 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-io 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-runtime 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-runtime-interface 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-std 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-storage 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
+ "sp-api",
+ "sp-io",
+ "sp-runtime",
+ "sp-runtime-interface",
+ "sp-std",
+ "sp-storage",
 ]
 
 [[package]]
@@ -1811,15 +1803,15 @@ dependencies = [
  "log",
  "parity-scale-codec",
  "sc-cli",
- "sc-client-db 0.10.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sc-executor 0.10.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sc-service 0.10.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
+ "sc-client-db",
+ "sc-executor",
+ "sc-service",
  "serde",
- "sp-core 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-externalities 0.10.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-keystore 0.10.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-runtime 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-state-machine 0.10.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
+ "sp-core",
+ "sp-externalities",
+ "sp-keystore",
+ "sp-runtime",
+ "sp-state-machine",
  "structopt",
 ]
 
@@ -1832,11 +1824,11 @@ dependencies = [
  "frame-system",
  "parity-scale-codec",
  "scale-info",
- "sp-core 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-io 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-runtime 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-std 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-tracing 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
+ "sp-core",
+ "sp-io",
+ "sp-runtime",
+ "sp-std",
+ "sp-tracing",
 ]
 
 [[package]]
@@ -1867,16 +1859,16 @@ dependencies = [
  "scale-info",
  "serde",
  "smallvec",
- "sp-arithmetic 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-core 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-core-hashing-proc-macro 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-inherents 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-io 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-runtime 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-staking 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-state-machine 0.10.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-std 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-tracing 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
+ "sp-arithmetic",
+ "sp-core",
+ "sp-core-hashing-proc-macro",
+ "sp-inherents",
+ "sp-io",
+ "sp-runtime",
+ "sp-staking",
+ "sp-state-machine",
+ "sp-std",
+ "sp-tracing",
  "tt-call",
 ]
 
@@ -1924,11 +1916,11 @@ dependencies = [
  "parity-scale-codec",
  "scale-info",
  "serde",
- "sp-core 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-io 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-runtime 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-std 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-version 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
+ "sp-core",
+ "sp-io",
+ "sp-runtime",
+ "sp-std",
+ "sp-version",
 ]
 
 [[package]]
@@ -1941,9 +1933,9 @@ dependencies = [
  "frame-system",
  "parity-scale-codec",
  "scale-info",
- "sp-core 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-runtime 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-std 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
+ "sp-core",
+ "sp-runtime",
+ "sp-std",
 ]
 
 [[package]]
@@ -1952,7 +1944,7 @@ version = "4.0.0-dev"
 source = "git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6#2db18f864ae2bb50e60e497b7ac2c521daf83af6"
 dependencies = [
  "parity-scale-codec",
- "sp-api 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
+ "sp-api",
 ]
 
 [[package]]
@@ -1982,29 +1974,29 @@ dependencies = [
  "pallet-transaction-payment-rpc",
  "sc-basic-authorship",
  "sc-cli",
- "sc-client-api 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sc-consensus 0.10.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
+ "sc-client-api",
+ "sc-consensus",
  "sc-consensus-aura",
  "sc-consensus-manual-seal",
- "sc-executor 0.10.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
+ "sc-executor",
  "sc-finality-grandpa",
- "sc-keystore 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sc-network 0.10.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sc-rpc 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sc-rpc-api 0.10.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sc-service 0.10.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sc-telemetry 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sc-transaction-pool 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sc-transaction-pool-api 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-api 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-block-builder 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-blockchain 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-consensus 0.10.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
+ "sc-keystore",
+ "sc-network",
+ "sc-rpc",
+ "sc-rpc-api",
+ "sc-service",
+ "sc-telemetry",
+ "sc-transaction-pool",
+ "sc-transaction-pool-api",
+ "sp-api",
+ "sp-block-builder",
+ "sp-blockchain",
+ "sp-consensus",
  "sp-consensus-aura",
- "sp-core 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-finality-grandpa 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-inherents 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-runtime 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
+ "sp-core",
+ "sp-finality-grandpa",
+ "sp-inherents",
+ "sp-runtime",
  "sp-timestamp",
  "structopt",
  "substrate-build-script-utils",
@@ -2041,18 +2033,18 @@ dependencies = [
  "parity-scale-codec",
  "scale-info",
  "serde",
- "sp-api 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-block-builder 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
+ "sp-api",
+ "sp-block-builder",
  "sp-consensus-aura",
- "sp-core 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-inherents 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-io 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-offchain 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-runtime 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-session 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-std 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-transaction-pool 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-version 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
+ "sp-core",
+ "sp-inherents",
+ "sp-io",
+ "sp-offchain",
+ "sp-runtime",
+ "sp-session",
+ "sp-std",
+ "sp-transaction-pool",
+ "sp-version",
  "substrate-wasm-builder",
 ]
 
@@ -4300,10 +4292,10 @@ dependencies = [
  "pallet-timestamp",
  "parity-scale-codec",
  "scale-info",
- "sp-application-crypto 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
+ "sp-application-crypto",
  "sp-consensus-aura",
- "sp-runtime 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-std 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
+ "sp-runtime",
+ "sp-std",
 ]
 
 [[package]]
@@ -4317,8 +4309,8 @@ dependencies = [
  "parity-scale-codec",
  "scale-info",
  "sp-authorship",
- "sp-runtime 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-std 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
+ "sp-runtime",
+ "sp-std",
 ]
 
 [[package]]
@@ -4332,8 +4324,8 @@ dependencies = [
  "log",
  "parity-scale-codec",
  "scale-info",
- "sp-runtime 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-std 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
+ "sp-runtime",
+ "sp-std",
 ]
 
 [[package]]
@@ -4346,9 +4338,9 @@ dependencies = [
  "parity-scale-codec",
  "scale-info",
  "serde",
- "sp-core 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-io 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-runtime 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
+ "sp-core",
+ "sp-io",
+ "sp-runtime",
 ]
 
 [[package]]
@@ -4363,11 +4355,11 @@ dependencies = [
  "parity-scale-codec",
  "scale-info",
  "serde",
- "sp-core 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-inherents 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-io 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-runtime 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-std 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
+ "sp-core",
+ "sp-inherents",
+ "sp-io",
+ "sp-runtime",
+ "sp-std",
 ]
 
 [[package]]
@@ -4394,10 +4386,10 @@ dependencies = [
  "scale-info",
  "serde",
  "sha3 0.8.2",
- "sp-core 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-io 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-runtime 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-std 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
+ "sp-core",
+ "sp-io",
+ "sp-runtime",
+ "sp-std",
 ]
 
 [[package]]
@@ -4421,10 +4413,10 @@ dependencies = [
  "scale-info",
  "serde",
  "sha3 0.8.2",
- "sp-core 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-io 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-runtime 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-std 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
+ "sp-core",
+ "sp-io",
+ "sp-runtime",
+ "sp-std",
 ]
 
 [[package]]
@@ -4433,8 +4425,8 @@ version = "2.0.0-dev"
 dependencies = [
  "fp-evm",
  "pallet-evm-test-vector-support",
- "sp-core 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-io 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
+ "sp-core",
+ "sp-io",
 ]
 
 [[package]]
@@ -4443,8 +4435,8 @@ version = "2.0.0-dev"
 dependencies = [
  "fp-evm",
  "pallet-evm-test-vector-support",
- "sp-core 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-io 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
+ "sp-core",
+ "sp-io",
  "substrate-bn",
 ]
 
@@ -4456,8 +4448,8 @@ dependencies = [
  "fp-evm",
  "frame-support",
  "parity-scale-codec",
- "sp-core 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-io 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
+ "sp-core",
+ "sp-io",
 ]
 
 [[package]]
@@ -4468,8 +4460,8 @@ dependencies = [
  "frame-support",
  "pallet-evm",
  "parity-scale-codec",
- "sp-core 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-io 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
+ "sp-core",
+ "sp-io",
 ]
 
 [[package]]
@@ -4478,8 +4470,8 @@ version = "2.0.0-dev"
 dependencies = [
  "ed25519-dalek",
  "fp-evm",
- "sp-core 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-io 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
+ "sp-core",
+ "sp-io",
 ]
 
 [[package]]
@@ -4490,8 +4482,8 @@ dependencies = [
  "hex",
  "num",
  "pallet-evm-test-vector-support",
- "sp-core 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-io 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
+ "sp-core",
+ "sp-io",
 ]
 
 [[package]]
@@ -4499,8 +4491,8 @@ name = "pallet-evm-precompile-sha3fips"
 version = "2.0.0-dev"
 dependencies = [
  "fp-evm",
- "sp-core 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-io 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
+ "sp-core",
+ "sp-io",
  "tiny-keccak",
 ]
 
@@ -4511,8 +4503,8 @@ dependencies = [
  "fp-evm",
  "pallet-evm-test-vector-support",
  "ripemd160",
- "sp-core 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-io 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
+ "sp-core",
+ "sp-io",
 ]
 
 [[package]]
@@ -4539,14 +4531,14 @@ dependencies = [
  "pallet-session",
  "parity-scale-codec",
  "scale-info",
- "sp-application-crypto 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-core 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-finality-grandpa 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-io 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-runtime 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-session 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-staking 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-std 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
+ "sp-application-crypto",
+ "sp-core",
+ "sp-finality-grandpa",
+ "sp-io",
+ "sp-runtime",
+ "sp-session",
+ "sp-staking",
+ "sp-std",
 ]
 
 [[package]]
@@ -4559,8 +4551,8 @@ dependencies = [
  "parity-scale-codec",
  "safe-mix",
  "scale-info",
- "sp-runtime 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-std 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
+ "sp-runtime",
+ "sp-std",
 ]
 
 [[package]]
@@ -4575,13 +4567,13 @@ dependencies = [
  "pallet-timestamp",
  "parity-scale-codec",
  "scale-info",
- "sp-core 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-io 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-runtime 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-session 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-staking 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-std 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-trie 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
+ "sp-core",
+ "sp-io",
+ "sp-runtime",
+ "sp-session",
+ "sp-staking",
+ "sp-std",
+ "sp-trie",
 ]
 
 [[package]]
@@ -4593,9 +4585,9 @@ dependencies = [
  "frame-system",
  "parity-scale-codec",
  "scale-info",
- "sp-io 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-runtime 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-std 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
+ "sp-io",
+ "sp-runtime",
+ "sp-std",
 ]
 
 [[package]]
@@ -4609,9 +4601,9 @@ dependencies = [
  "log",
  "parity-scale-codec",
  "scale-info",
- "sp-inherents 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-runtime 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-std 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
+ "sp-inherents",
+ "sp-runtime",
+ "sp-std",
  "sp-timestamp",
 ]
 
@@ -4626,10 +4618,10 @@ dependencies = [
  "scale-info",
  "serde",
  "smallvec",
- "sp-core 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-io 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-runtime 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-std 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
+ "sp-core",
+ "sp-io",
+ "sp-runtime",
+ "sp-std",
 ]
 
 [[package]]
@@ -4642,11 +4634,11 @@ dependencies = [
  "jsonrpc-derive",
  "pallet-transaction-payment-rpc-runtime-api",
  "parity-scale-codec",
- "sp-api 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-blockchain 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-core 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-rpc 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-runtime 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
+ "sp-api",
+ "sp-blockchain",
+ "sp-core",
+ "sp-rpc",
+ "sp-runtime",
 ]
 
 [[package]]
@@ -4656,8 +4648,8 @@ source = "git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b
 dependencies = [
  "pallet-transaction-payment",
  "parity-scale-codec",
- "sp-api 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-runtime 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
+ "sp-api",
+ "sp-runtime",
 ]
 
 [[package]]
@@ -5683,19 +5675,8 @@ version = "4.1.0-dev"
 source = "git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6#2db18f864ae2bb50e60e497b7ac2c521daf83af6"
 dependencies = [
  "log",
- "sp-core 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-wasm-interface 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "thiserror",
-]
-
-[[package]]
-name = "sc-allocator"
-version = "4.1.0-dev"
-source = "git+https://github.com/cennznet/substrate#2db18f864ae2bb50e60e497b7ac2c521daf83af6"
-dependencies = [
- "log",
- "sp-core 4.0.0-dev (git+https://github.com/cennznet/substrate)",
- "sp-wasm-interface 4.0.0-dev (git+https://github.com/cennznet/substrate)",
+ "sp-core",
+ "sp-wasm-interface",
  "thiserror",
 ]
 
@@ -5708,18 +5689,18 @@ dependencies = [
  "futures-timer 3.0.2",
  "log",
  "parity-scale-codec",
- "sc-block-builder 0.10.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sc-client-api 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
+ "sc-block-builder",
+ "sc-client-api",
  "sc-proposer-metrics",
- "sc-telemetry 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sc-transaction-pool-api 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-api 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-blockchain 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-consensus 0.10.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-core 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-inherents 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-runtime 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "substrate-prometheus-endpoint 0.10.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
+ "sc-telemetry",
+ "sc-transaction-pool-api",
+ "sp-api",
+ "sp-blockchain",
+ "sp-consensus",
+ "sp-core",
+ "sp-inherents",
+ "sp-runtime",
+ "substrate-prometheus-endpoint",
 ]
 
 [[package]]
@@ -5728,30 +5709,14 @@ version = "0.10.0-dev"
 source = "git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6#2db18f864ae2bb50e60e497b7ac2c521daf83af6"
 dependencies = [
  "parity-scale-codec",
- "sc-client-api 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-api 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-block-builder 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-blockchain 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-core 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-inherents 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-runtime 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-state-machine 0.10.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
-]
-
-[[package]]
-name = "sc-block-builder"
-version = "0.10.0-dev"
-source = "git+https://github.com/cennznet/substrate#2db18f864ae2bb50e60e497b7ac2c521daf83af6"
-dependencies = [
- "parity-scale-codec",
- "sc-client-api 4.0.0-dev (git+https://github.com/cennznet/substrate)",
- "sp-api 4.0.0-dev (git+https://github.com/cennznet/substrate)",
- "sp-block-builder 4.0.0-dev (git+https://github.com/cennznet/substrate)",
- "sp-blockchain 4.0.0-dev (git+https://github.com/cennznet/substrate)",
- "sp-core 4.0.0-dev (git+https://github.com/cennznet/substrate)",
- "sp-inherents 4.0.0-dev (git+https://github.com/cennznet/substrate)",
- "sp-runtime 4.0.0-dev (git+https://github.com/cennznet/substrate)",
- "sp-state-machine 0.10.0-dev (git+https://github.com/cennznet/substrate)",
+ "sc-client-api",
+ "sp-api",
+ "sp-block-builder",
+ "sp-blockchain",
+ "sp-core",
+ "sp-inherents",
+ "sp-runtime",
+ "sp-state-machine",
 ]
 
 [[package]]
@@ -5762,47 +5727,19 @@ dependencies = [
  "impl-trait-for-tuples",
  "memmap2 0.5.0",
  "parity-scale-codec",
- "sc-chain-spec-derive 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sc-network 0.10.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sc-telemetry 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
+ "sc-chain-spec-derive",
+ "sc-network",
+ "sc-telemetry",
  "serde",
  "serde_json",
- "sp-core 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-runtime 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
-]
-
-[[package]]
-name = "sc-chain-spec"
-version = "4.0.0-dev"
-source = "git+https://github.com/cennznet/substrate#2db18f864ae2bb50e60e497b7ac2c521daf83af6"
-dependencies = [
- "impl-trait-for-tuples",
- "memmap2 0.5.0",
- "parity-scale-codec",
- "sc-chain-spec-derive 4.0.0-dev (git+https://github.com/cennznet/substrate)",
- "sc-network 0.10.0-dev (git+https://github.com/cennznet/substrate)",
- "sc-telemetry 4.0.0-dev (git+https://github.com/cennznet/substrate)",
- "serde",
- "serde_json",
- "sp-core 4.0.0-dev (git+https://github.com/cennznet/substrate)",
- "sp-runtime 4.0.0-dev (git+https://github.com/cennznet/substrate)",
+ "sp-core",
+ "sp-runtime",
 ]
 
 [[package]]
 name = "sc-chain-spec-derive"
 version = "4.0.0-dev"
 source = "git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6#2db18f864ae2bb50e60e497b7ac2c521daf83af6"
-dependencies = [
- "proc-macro-crate 1.1.0",
- "proc-macro2",
- "quote",
- "syn",
-]
-
-[[package]]
-name = "sc-chain-spec-derive"
-version = "4.0.0-dev"
-source = "git+https://github.com/cennznet/substrate#2db18f864ae2bb50e60e497b7ac2c521daf83af6"
 dependencies = [
  "proc-macro-crate 1.1.0",
  "proc-macro2",
@@ -5826,22 +5763,22 @@ dependencies = [
  "rand 0.7.3",
  "regex",
  "rpassword",
- "sc-client-api 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sc-keystore 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sc-network 0.10.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sc-service 0.10.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sc-telemetry 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sc-tracing 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sc-utils 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
+ "sc-client-api",
+ "sc-keystore",
+ "sc-network",
+ "sc-service",
+ "sc-telemetry",
+ "sc-tracing",
+ "sc-utils",
  "serde",
  "serde_json",
- "sp-blockchain 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-core 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
+ "sp-blockchain",
+ "sp-core",
  "sp-keyring",
- "sp-keystore 0.10.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-panic-handler 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-runtime 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-version 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
+ "sp-keystore",
+ "sp-panic-handler",
+ "sp-runtime",
+ "sp-version",
  "structopt",
  "thiserror",
  "tiny-bip39",
@@ -5859,49 +5796,21 @@ dependencies = [
  "log",
  "parity-scale-codec",
  "parking_lot",
- "sc-executor 0.10.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sc-transaction-pool-api 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sc-utils 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-api 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-blockchain 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-consensus 0.10.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-core 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-database 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-externalities 0.10.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-keystore 0.10.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-runtime 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-state-machine 0.10.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-storage 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-trie 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "substrate-prometheus-endpoint 0.10.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
-]
-
-[[package]]
-name = "sc-client-api"
-version = "4.0.0-dev"
-source = "git+https://github.com/cennznet/substrate#2db18f864ae2bb50e60e497b7ac2c521daf83af6"
-dependencies = [
- "fnv",
- "futures 0.3.17",
- "hash-db",
- "log",
- "parity-scale-codec",
- "parking_lot",
- "sc-executor 0.10.0-dev (git+https://github.com/cennznet/substrate)",
- "sc-transaction-pool-api 4.0.0-dev (git+https://github.com/cennznet/substrate)",
- "sc-utils 4.0.0-dev (git+https://github.com/cennznet/substrate)",
- "sp-api 4.0.0-dev (git+https://github.com/cennznet/substrate)",
- "sp-blockchain 4.0.0-dev (git+https://github.com/cennznet/substrate)",
- "sp-consensus 0.10.0-dev (git+https://github.com/cennznet/substrate)",
- "sp-core 4.0.0-dev (git+https://github.com/cennznet/substrate)",
- "sp-database 4.0.0-dev (git+https://github.com/cennznet/substrate)",
- "sp-externalities 0.10.0-dev (git+https://github.com/cennznet/substrate)",
- "sp-keystore 0.10.0-dev (git+https://github.com/cennznet/substrate)",
- "sp-runtime 4.0.0-dev (git+https://github.com/cennznet/substrate)",
- "sp-state-machine 0.10.0-dev (git+https://github.com/cennznet/substrate)",
- "sp-storage 4.0.0-dev (git+https://github.com/cennznet/substrate)",
- "sp-trie 4.0.0-dev (git+https://github.com/cennznet/substrate)",
- "substrate-prometheus-endpoint 0.10.0-dev (git+https://github.com/cennznet/substrate)",
+ "sc-executor",
+ "sc-transaction-pool-api",
+ "sc-utils",
+ "sp-api",
+ "sp-blockchain",
+ "sp-consensus",
+ "sp-core",
+ "sp-database",
+ "sp-externalities",
+ "sp-keystore",
+ "sp-runtime",
+ "sp-state-machine",
+ "sp-storage",
+ "sp-trie",
+ "substrate-prometheus-endpoint",
 ]
 
 [[package]]
@@ -5918,40 +5827,15 @@ dependencies = [
  "parity-db",
  "parity-scale-codec",
  "parking_lot",
- "sc-client-api 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sc-state-db 0.10.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-arithmetic 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-blockchain 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-core 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-database 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-runtime 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-state-machine 0.10.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-trie 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
-]
-
-[[package]]
-name = "sc-client-db"
-version = "0.10.0-dev"
-source = "git+https://github.com/cennznet/substrate#2db18f864ae2bb50e60e497b7ac2c521daf83af6"
-dependencies = [
- "hash-db",
- "kvdb",
- "kvdb-memorydb",
- "kvdb-rocksdb",
- "linked-hash-map",
- "log",
- "parity-db",
- "parity-scale-codec",
- "parking_lot",
- "sc-client-api 4.0.0-dev (git+https://github.com/cennznet/substrate)",
- "sc-state-db 0.10.0-dev (git+https://github.com/cennznet/substrate)",
- "sp-arithmetic 4.0.0-dev (git+https://github.com/cennznet/substrate)",
- "sp-blockchain 4.0.0-dev (git+https://github.com/cennznet/substrate)",
- "sp-core 4.0.0-dev (git+https://github.com/cennznet/substrate)",
- "sp-database 4.0.0-dev (git+https://github.com/cennznet/substrate)",
- "sp-runtime 4.0.0-dev (git+https://github.com/cennznet/substrate)",
- "sp-state-machine 0.10.0-dev (git+https://github.com/cennznet/substrate)",
- "sp-trie 4.0.0-dev (git+https://github.com/cennznet/substrate)",
+ "sc-client-api",
+ "sc-state-db",
+ "sp-arithmetic",
+ "sp-blockchain",
+ "sp-core",
+ "sp-database",
+ "sp-runtime",
+ "sp-state-machine",
+ "sp-trie",
 ]
 
 [[package]]
@@ -5965,40 +5849,16 @@ dependencies = [
  "libp2p",
  "log",
  "parking_lot",
- "sc-client-api 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sc-utils 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
+ "sc-client-api",
+ "sc-utils",
  "serde",
- "sp-api 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-blockchain 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-consensus 0.10.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-core 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-runtime 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-state-machine 0.10.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "substrate-prometheus-endpoint 0.10.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "thiserror",
-]
-
-[[package]]
-name = "sc-consensus"
-version = "0.10.0-dev"
-source = "git+https://github.com/cennznet/substrate#2db18f864ae2bb50e60e497b7ac2c521daf83af6"
-dependencies = [
- "async-trait",
- "futures 0.3.17",
- "futures-timer 3.0.2",
- "libp2p",
- "log",
- "parking_lot",
- "sc-client-api 4.0.0-dev (git+https://github.com/cennznet/substrate)",
- "sc-utils 4.0.0-dev (git+https://github.com/cennznet/substrate)",
- "serde",
- "sp-api 4.0.0-dev (git+https://github.com/cennznet/substrate)",
- "sp-blockchain 4.0.0-dev (git+https://github.com/cennznet/substrate)",
- "sp-consensus 0.10.0-dev (git+https://github.com/cennznet/substrate)",
- "sp-core 4.0.0-dev (git+https://github.com/cennznet/substrate)",
- "sp-runtime 4.0.0-dev (git+https://github.com/cennznet/substrate)",
- "sp-state-machine 0.10.0-dev (git+https://github.com/cennznet/substrate)",
- "substrate-prometheus-endpoint 0.10.0-dev (git+https://github.com/cennznet/substrate)",
+ "sp-api",
+ "sp-blockchain",
+ "sp-consensus",
+ "sp-core",
+ "sp-runtime",
+ "sp-state-machine",
+ "substrate-prometheus-endpoint",
  "thiserror",
 ]
 
@@ -6012,23 +5872,23 @@ dependencies = [
  "futures 0.3.17",
  "log",
  "parity-scale-codec",
- "sc-block-builder 0.10.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sc-client-api 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sc-consensus 0.10.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
+ "sc-block-builder",
+ "sc-client-api",
+ "sc-consensus",
  "sc-consensus-slots",
- "sc-telemetry 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-api 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-application-crypto 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-block-builder 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-blockchain 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-consensus 0.10.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
+ "sc-telemetry",
+ "sp-api",
+ "sp-application-crypto",
+ "sp-block-builder",
+ "sp-blockchain",
+ "sp-consensus",
  "sp-consensus-aura",
  "sp-consensus-slots",
- "sp-core 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-inherents 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-keystore 0.10.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-runtime 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "substrate-prometheus-endpoint 0.10.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
+ "sp-core",
+ "sp-inherents",
+ "sp-keystore",
+ "sp-runtime",
+ "substrate-prometheus-endpoint",
 ]
 
 [[package]]
@@ -6038,7 +5898,7 @@ source = "git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b
 dependencies = [
  "async-trait",
  "derive_more",
- "fork-tree 3.0.0 (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
+ "fork-tree",
  "futures 0.3.17",
  "log",
  "merlin",
@@ -6049,29 +5909,29 @@ dependencies = [
  "parking_lot",
  "rand 0.7.3",
  "retain_mut",
- "sc-client-api 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sc-consensus 0.10.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
+ "sc-client-api",
+ "sc-consensus",
  "sc-consensus-epochs",
  "sc-consensus-slots",
- "sc-keystore 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sc-telemetry 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
+ "sc-keystore",
+ "sc-telemetry",
  "schnorrkel",
  "serde",
- "sp-api 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-application-crypto 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-block-builder 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-blockchain 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-consensus 0.10.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
+ "sp-api",
+ "sp-application-crypto",
+ "sp-block-builder",
+ "sp-blockchain",
+ "sp-consensus",
  "sp-consensus-babe",
  "sp-consensus-slots",
  "sp-consensus-vrf",
- "sp-core 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-inherents 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-io 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-keystore 0.10.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-runtime 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-version 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "substrate-prometheus-endpoint 0.10.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
+ "sp-core",
+ "sp-inherents",
+ "sp-io",
+ "sp-keystore",
+ "sp-runtime",
+ "sp-version",
+ "substrate-prometheus-endpoint",
 ]
 
 [[package]]
@@ -6079,12 +5939,12 @@ name = "sc-consensus-epochs"
 version = "0.10.0-dev"
 source = "git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6#2db18f864ae2bb50e60e497b7ac2c521daf83af6"
 dependencies = [
- "fork-tree 3.0.0 (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
+ "fork-tree",
  "parity-scale-codec",
- "sc-client-api 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sc-consensus 0.10.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-blockchain 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-runtime 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
+ "sc-client-api",
+ "sc-consensus",
+ "sp-blockchain",
+ "sp-runtime",
 ]
 
 [[package]]
@@ -6101,24 +5961,24 @@ dependencies = [
  "jsonrpc-derive",
  "log",
  "parity-scale-codec",
- "sc-client-api 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sc-consensus 0.10.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
+ "sc-client-api",
+ "sc-consensus",
  "sc-consensus-babe",
  "sc-consensus-epochs",
- "sc-transaction-pool 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sc-transaction-pool-api 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
+ "sc-transaction-pool",
+ "sc-transaction-pool-api",
  "serde",
- "sp-api 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-blockchain 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-consensus 0.10.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
+ "sp-api",
+ "sp-blockchain",
+ "sp-consensus",
  "sp-consensus-babe",
  "sp-consensus-slots",
- "sp-core 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-inherents 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-keystore 0.10.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-runtime 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
+ "sp-core",
+ "sp-inherents",
+ "sp-keystore",
+ "sp-runtime",
  "sp-timestamp",
- "substrate-prometheus-endpoint 0.10.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
+ "substrate-prometheus-endpoint",
 ]
 
 [[package]]
@@ -6131,18 +5991,18 @@ dependencies = [
  "futures-timer 3.0.2",
  "log",
  "parity-scale-codec",
- "sc-client-api 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sc-consensus 0.10.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sc-telemetry 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-api 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-arithmetic 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-blockchain 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-consensus 0.10.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
+ "sc-client-api",
+ "sc-consensus",
+ "sc-telemetry",
+ "sp-api",
+ "sp-arithmetic",
+ "sp-blockchain",
+ "sp-consensus",
  "sp-consensus-slots",
- "sp-core 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-inherents 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-runtime 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-state-machine 0.10.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
+ "sp-core",
+ "sp-inherents",
+ "sp-runtime",
+ "sp-state-machine",
  "sp-timestamp",
  "thiserror",
 ]
@@ -6157,46 +6017,20 @@ dependencies = [
  "log",
  "parity-scale-codec",
  "parking_lot",
- "sc-executor-common 0.10.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sc-executor-wasmi 0.10.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
+ "sc-executor-common",
+ "sc-executor-wasmi",
  "sc-executor-wasmtime",
- "sp-api 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-core 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-core-hashing-proc-macro 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-externalities 0.10.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-io 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-panic-handler 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-runtime-interface 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-tasks 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-trie 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-version 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-wasm-interface 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "wasmi",
-]
-
-[[package]]
-name = "sc-executor"
-version = "0.10.0-dev"
-source = "git+https://github.com/cennznet/substrate#2db18f864ae2bb50e60e497b7ac2c521daf83af6"
-dependencies = [
- "lazy_static",
- "libsecp256k1 0.7.0",
- "log",
- "parity-scale-codec",
- "parking_lot",
- "sc-executor-common 0.10.0-dev (git+https://github.com/cennznet/substrate)",
- "sc-executor-wasmi 0.10.0-dev (git+https://github.com/cennznet/substrate)",
- "sp-api 4.0.0-dev (git+https://github.com/cennznet/substrate)",
- "sp-core 4.0.0-dev (git+https://github.com/cennznet/substrate)",
- "sp-core-hashing-proc-macro 4.0.0-dev (git+https://github.com/cennznet/substrate)",
- "sp-externalities 0.10.0-dev (git+https://github.com/cennznet/substrate)",
- "sp-io 4.0.0-dev (git+https://github.com/cennznet/substrate)",
- "sp-panic-handler 4.0.0-dev (git+https://github.com/cennznet/substrate)",
- "sp-runtime-interface 4.0.0-dev (git+https://github.com/cennznet/substrate)",
- "sp-tasks 4.0.0-dev (git+https://github.com/cennznet/substrate)",
- "sp-trie 4.0.0-dev (git+https://github.com/cennznet/substrate)",
- "sp-version 4.0.0-dev (git+https://github.com/cennznet/substrate)",
- "sp-wasm-interface 4.0.0-dev (git+https://github.com/cennznet/substrate)",
+ "sp-api",
+ "sp-core",
+ "sp-core-hashing-proc-macro",
+ "sp-externalities",
+ "sp-io",
+ "sp-panic-handler",
+ "sp-runtime-interface",
+ "sp-tasks",
+ "sp-trie",
+ "sp-version",
+ "sp-wasm-interface",
  "wasmi",
 ]
 
@@ -6209,29 +6043,11 @@ dependencies = [
  "environmental",
  "parity-scale-codec",
  "pwasm-utils",
- "sc-allocator 4.1.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-core 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-maybe-compressed-blob 4.1.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-serializer 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-wasm-interface 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "thiserror",
- "wasmi",
-]
-
-[[package]]
-name = "sc-executor-common"
-version = "0.10.0-dev"
-source = "git+https://github.com/cennznet/substrate#2db18f864ae2bb50e60e497b7ac2c521daf83af6"
-dependencies = [
- "derive_more",
- "environmental",
- "parity-scale-codec",
- "pwasm-utils",
- "sc-allocator 4.1.0-dev (git+https://github.com/cennznet/substrate)",
- "sp-core 4.0.0-dev (git+https://github.com/cennznet/substrate)",
- "sp-maybe-compressed-blob 4.1.0-dev (git+https://github.com/cennznet/substrate)",
- "sp-serializer 4.0.0-dev (git+https://github.com/cennznet/substrate)",
- "sp-wasm-interface 4.0.0-dev (git+https://github.com/cennznet/substrate)",
+ "sc-allocator",
+ "sp-core",
+ "sp-maybe-compressed-blob",
+ "sp-serializer",
+ "sp-wasm-interface",
  "thiserror",
  "wasmi",
 ]
@@ -6243,28 +6059,12 @@ source = "git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b
 dependencies = [
  "log",
  "parity-scale-codec",
- "sc-allocator 4.1.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sc-executor-common 0.10.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
+ "sc-allocator",
+ "sc-executor-common",
  "scoped-tls",
- "sp-core 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-runtime-interface 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-wasm-interface 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "wasmi",
-]
-
-[[package]]
-name = "sc-executor-wasmi"
-version = "0.10.0-dev"
-source = "git+https://github.com/cennznet/substrate#2db18f864ae2bb50e60e497b7ac2c521daf83af6"
-dependencies = [
- "log",
- "parity-scale-codec",
- "sc-allocator 4.1.0-dev (git+https://github.com/cennznet/substrate)",
- "sc-executor-common 0.10.0-dev (git+https://github.com/cennznet/substrate)",
- "scoped-tls",
- "sp-core 4.0.0-dev (git+https://github.com/cennznet/substrate)",
- "sp-runtime-interface 4.0.0-dev (git+https://github.com/cennznet/substrate)",
- "sp-wasm-interface 4.0.0-dev (git+https://github.com/cennznet/substrate)",
+ "sp-core",
+ "sp-runtime-interface",
+ "sp-wasm-interface",
  "wasmi",
 ]
 
@@ -6278,11 +6078,11 @@ dependencies = [
  "log",
  "parity-scale-codec",
  "parity-wasm 0.42.2",
- "sc-allocator 4.1.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sc-executor-common 0.10.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-core 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-runtime-interface 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-wasm-interface 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
+ "sc-allocator",
+ "sc-executor-common",
+ "sp-core",
+ "sp-runtime-interface",
+ "sp-wasm-interface",
  "wasmtime",
 ]
 
@@ -6295,32 +6095,32 @@ dependencies = [
  "derive_more",
  "dyn-clone",
  "finality-grandpa",
- "fork-tree 3.0.0 (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
+ "fork-tree",
  "futures 0.3.17",
  "futures-timer 3.0.2",
  "log",
  "parity-scale-codec",
  "parking_lot",
  "rand 0.8.4",
- "sc-block-builder 0.10.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sc-client-api 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sc-consensus 0.10.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sc-keystore 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sc-network 0.10.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
+ "sc-block-builder",
+ "sc-client-api",
+ "sc-consensus",
+ "sc-keystore",
+ "sc-network",
  "sc-network-gossip",
- "sc-telemetry 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sc-utils 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
+ "sc-telemetry",
+ "sc-utils",
  "serde_json",
- "sp-api 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-application-crypto 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-arithmetic 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-blockchain 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-consensus 0.10.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-core 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-finality-grandpa 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-keystore 0.10.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-runtime 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "substrate-prometheus-endpoint 0.10.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
+ "sp-api",
+ "sp-application-crypto",
+ "sp-arithmetic",
+ "sp-blockchain",
+ "sp-consensus",
+ "sp-core",
+ "sp-finality-grandpa",
+ "sp-keystore",
+ "sp-runtime",
+ "substrate-prometheus-endpoint",
 ]
 
 [[package]]
@@ -6333,28 +6133,11 @@ dependencies = [
  "futures-timer 3.0.2",
  "log",
  "parity-util-mem",
- "sc-client-api 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sc-network 0.10.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sc-transaction-pool-api 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-blockchain 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-runtime 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
-]
-
-[[package]]
-name = "sc-informant"
-version = "0.10.0-dev"
-source = "git+https://github.com/cennznet/substrate#2db18f864ae2bb50e60e497b7ac2c521daf83af6"
-dependencies = [
- "ansi_term 0.12.1",
- "futures 0.3.17",
- "futures-timer 3.0.2",
- "log",
- "parity-util-mem",
- "sc-client-api 4.0.0-dev (git+https://github.com/cennznet/substrate)",
- "sc-network 0.10.0-dev (git+https://github.com/cennznet/substrate)",
- "sc-transaction-pool-api 4.0.0-dev (git+https://github.com/cennznet/substrate)",
- "sp-blockchain 4.0.0-dev (git+https://github.com/cennznet/substrate)",
- "sp-runtime 4.0.0-dev (git+https://github.com/cennznet/substrate)",
+ "sc-client-api",
+ "sc-network",
+ "sc-transaction-pool-api",
+ "sp-blockchain",
+ "sp-runtime",
 ]
 
 [[package]]
@@ -6367,24 +6150,9 @@ dependencies = [
  "hex",
  "parking_lot",
  "serde_json",
- "sp-application-crypto 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-core 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-keystore 0.10.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
-]
-
-[[package]]
-name = "sc-keystore"
-version = "4.0.0-dev"
-source = "git+https://github.com/cennznet/substrate#2db18f864ae2bb50e60e497b7ac2c521daf83af6"
-dependencies = [
- "async-trait",
- "derive_more",
- "hex",
- "parking_lot",
- "serde_json",
- "sp-application-crypto 4.0.0-dev (git+https://github.com/cennznet/substrate)",
- "sp-core 4.0.0-dev (git+https://github.com/cennznet/substrate)",
- "sp-keystore 0.10.0-dev (git+https://github.com/cennznet/substrate)",
+ "sp-application-crypto",
+ "sp-core",
+ "sp-keystore",
 ]
 
 [[package]]
@@ -6401,7 +6169,7 @@ dependencies = [
  "derive_more",
  "either",
  "fnv",
- "fork-tree 3.0.0 (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
+ "fork-tree",
  "futures 0.3.17",
  "futures-timer 3.0.2",
  "hex",
@@ -6417,72 +6185,21 @@ dependencies = [
  "prost",
  "prost-build",
  "rand 0.7.3",
- "sc-block-builder 0.10.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sc-client-api 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sc-consensus 0.10.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sc-peerset 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sc-utils 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
+ "sc-block-builder",
+ "sc-client-api",
+ "sc-consensus",
+ "sc-peerset",
+ "sc-utils",
  "serde",
  "serde_json",
  "smallvec",
- "sp-arithmetic 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-blockchain 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-consensus 0.10.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-core 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-finality-grandpa 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-runtime 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "substrate-prometheus-endpoint 0.10.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "thiserror",
- "unsigned-varint 0.6.0",
- "void",
- "zeroize",
-]
-
-[[package]]
-name = "sc-network"
-version = "0.10.0-dev"
-source = "git+https://github.com/cennznet/substrate#2db18f864ae2bb50e60e497b7ac2c521daf83af6"
-dependencies = [
- "async-std",
- "async-trait",
- "asynchronous-codec 0.5.0",
- "bitflags",
- "bytes 1.0.1",
- "cid",
- "derive_more",
- "either",
- "fnv",
- "fork-tree 3.0.0 (git+https://github.com/cennznet/substrate)",
- "futures 0.3.17",
- "futures-timer 3.0.2",
- "hex",
- "ip_network",
- "libp2p",
- "linked-hash-map",
- "linked_hash_set",
- "log",
- "lru 0.7.1",
- "parity-scale-codec",
- "parking_lot",
- "pin-project 1.0.8",
- "prost",
- "prost-build",
- "rand 0.7.3",
- "sc-block-builder 0.10.0-dev (git+https://github.com/cennznet/substrate)",
- "sc-client-api 4.0.0-dev (git+https://github.com/cennznet/substrate)",
- "sc-consensus 0.10.0-dev (git+https://github.com/cennznet/substrate)",
- "sc-peerset 4.0.0-dev (git+https://github.com/cennznet/substrate)",
- "sc-utils 4.0.0-dev (git+https://github.com/cennznet/substrate)",
- "serde",
- "serde_json",
- "smallvec",
- "sp-arithmetic 4.0.0-dev (git+https://github.com/cennznet/substrate)",
- "sp-blockchain 4.0.0-dev (git+https://github.com/cennznet/substrate)",
- "sp-consensus 0.10.0-dev (git+https://github.com/cennznet/substrate)",
- "sp-core 4.0.0-dev (git+https://github.com/cennznet/substrate)",
- "sp-finality-grandpa 4.0.0-dev (git+https://github.com/cennznet/substrate)",
- "sp-runtime 4.0.0-dev (git+https://github.com/cennznet/substrate)",
- "substrate-prometheus-endpoint 0.10.0-dev (git+https://github.com/cennznet/substrate)",
+ "sp-arithmetic",
+ "sp-blockchain",
+ "sp-consensus",
+ "sp-core",
+ "sp-finality-grandpa",
+ "sp-runtime",
+ "substrate-prometheus-endpoint",
  "thiserror",
  "unsigned-varint 0.6.0",
  "void",
@@ -6499,9 +6216,9 @@ dependencies = [
  "libp2p",
  "log",
  "lru 0.7.1",
- "sc-network 0.10.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-runtime 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "substrate-prometheus-endpoint 0.10.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
+ "sc-network",
+ "sp-runtime",
+ "substrate-prometheus-endpoint",
  "tracing",
 ]
 
@@ -6522,41 +6239,13 @@ dependencies = [
  "parity-scale-codec",
  "parking_lot",
  "rand 0.7.3",
- "sc-client-api 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sc-network 0.10.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sc-utils 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-api 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-core 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-offchain 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-runtime 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "threadpool",
- "tracing",
-]
-
-[[package]]
-name = "sc-offchain"
-version = "4.0.0-dev"
-source = "git+https://github.com/cennznet/substrate#2db18f864ae2bb50e60e497b7ac2c521daf83af6"
-dependencies = [
- "bytes 1.0.1",
- "fnv",
- "futures 0.3.17",
- "futures-timer 3.0.2",
- "hex",
- "hyper",
- "hyper-rustls",
- "num_cpus",
- "once_cell",
- "parity-scale-codec",
- "parking_lot",
- "rand 0.7.3",
- "sc-client-api 4.0.0-dev (git+https://github.com/cennznet/substrate)",
- "sc-network 0.10.0-dev (git+https://github.com/cennznet/substrate)",
- "sc-utils 4.0.0-dev (git+https://github.com/cennznet/substrate)",
- "sp-api 4.0.0-dev (git+https://github.com/cennznet/substrate)",
- "sp-core 4.0.0-dev (git+https://github.com/cennznet/substrate)",
- "sp-offchain 4.0.0-dev (git+https://github.com/cennznet/substrate)",
- "sp-runtime 4.0.0-dev (git+https://github.com/cennznet/substrate)",
+ "sc-client-api",
+ "sc-network",
+ "sc-utils",
+ "sp-api",
+ "sp-core",
+ "sp-offchain",
+ "sp-runtime",
  "threadpool",
  "tracing",
 ]
@@ -6569,20 +6258,7 @@ dependencies = [
  "futures 0.3.17",
  "libp2p",
  "log",
- "sc-utils 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "serde_json",
- "wasm-timer",
-]
-
-[[package]]
-name = "sc-peerset"
-version = "4.0.0-dev"
-source = "git+https://github.com/cennznet/substrate#2db18f864ae2bb50e60e497b7ac2c521daf83af6"
-dependencies = [
- "futures 0.3.17",
- "libp2p",
- "log",
- "sc-utils 4.0.0-dev (git+https://github.com/cennznet/substrate)",
+ "sc-utils",
  "serde_json",
  "wasm-timer",
 ]
@@ -6593,7 +6269,7 @@ version = "0.10.0-dev"
 source = "git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6#2db18f864ae2bb50e60e497b7ac2c521daf83af6"
 dependencies = [
  "log",
- "substrate-prometheus-endpoint 0.10.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
+ "substrate-prometheus-endpoint",
 ]
 
 [[package]]
@@ -6608,54 +6284,23 @@ dependencies = [
  "log",
  "parity-scale-codec",
  "parking_lot",
- "sc-block-builder 0.10.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sc-chain-spec 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sc-client-api 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sc-rpc-api 0.10.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sc-tracing 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sc-transaction-pool-api 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sc-utils 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
+ "sc-block-builder",
+ "sc-chain-spec",
+ "sc-client-api",
+ "sc-rpc-api",
+ "sc-tracing",
+ "sc-transaction-pool-api",
+ "sc-utils",
  "serde_json",
- "sp-api 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-blockchain 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-core 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-keystore 0.10.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-offchain 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-rpc 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-runtime 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-session 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-version 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
-]
-
-[[package]]
-name = "sc-rpc"
-version = "4.0.0-dev"
-source = "git+https://github.com/cennznet/substrate#2db18f864ae2bb50e60e497b7ac2c521daf83af6"
-dependencies = [
- "futures 0.3.17",
- "hash-db",
- "jsonrpc-core",
- "jsonrpc-pubsub",
- "log",
- "parity-scale-codec",
- "parking_lot",
- "sc-block-builder 0.10.0-dev (git+https://github.com/cennznet/substrate)",
- "sc-chain-spec 4.0.0-dev (git+https://github.com/cennznet/substrate)",
- "sc-client-api 4.0.0-dev (git+https://github.com/cennznet/substrate)",
- "sc-rpc-api 0.10.0-dev (git+https://github.com/cennznet/substrate)",
- "sc-tracing 4.0.0-dev (git+https://github.com/cennznet/substrate)",
- "sc-transaction-pool-api 4.0.0-dev (git+https://github.com/cennznet/substrate)",
- "sc-utils 4.0.0-dev (git+https://github.com/cennznet/substrate)",
- "serde_json",
- "sp-api 4.0.0-dev (git+https://github.com/cennznet/substrate)",
- "sp-blockchain 4.0.0-dev (git+https://github.com/cennznet/substrate)",
- "sp-core 4.0.0-dev (git+https://github.com/cennznet/substrate)",
- "sp-keystore 0.10.0-dev (git+https://github.com/cennznet/substrate)",
- "sp-offchain 4.0.0-dev (git+https://github.com/cennznet/substrate)",
- "sp-rpc 4.0.0-dev (git+https://github.com/cennznet/substrate)",
- "sp-runtime 4.0.0-dev (git+https://github.com/cennznet/substrate)",
- "sp-session 4.0.0-dev (git+https://github.com/cennznet/substrate)",
- "sp-version 4.0.0-dev (git+https://github.com/cennznet/substrate)",
+ "sp-api",
+ "sp-blockchain",
+ "sp-core",
+ "sp-keystore",
+ "sp-offchain",
+ "sp-rpc",
+ "sp-runtime",
+ "sp-session",
+ "sp-version",
 ]
 
 [[package]]
@@ -6671,40 +6316,15 @@ dependencies = [
  "log",
  "parity-scale-codec",
  "parking_lot",
- "sc-chain-spec 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sc-transaction-pool-api 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
+ "sc-chain-spec",
+ "sc-transaction-pool-api",
  "serde",
  "serde_json",
- "sp-core 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-rpc 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-runtime 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-tracing 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-version 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "thiserror",
-]
-
-[[package]]
-name = "sc-rpc-api"
-version = "0.10.0-dev"
-source = "git+https://github.com/cennznet/substrate#2db18f864ae2bb50e60e497b7ac2c521daf83af6"
-dependencies = [
- "futures 0.3.17",
- "jsonrpc-core",
- "jsonrpc-core-client",
- "jsonrpc-derive",
- "jsonrpc-pubsub",
- "log",
- "parity-scale-codec",
- "parking_lot",
- "sc-chain-spec 4.0.0-dev (git+https://github.com/cennznet/substrate)",
- "sc-transaction-pool-api 4.0.0-dev (git+https://github.com/cennznet/substrate)",
- "serde",
- "serde_json",
- "sp-core 4.0.0-dev (git+https://github.com/cennznet/substrate)",
- "sp-rpc 4.0.0-dev (git+https://github.com/cennznet/substrate)",
- "sp-runtime 4.0.0-dev (git+https://github.com/cennznet/substrate)",
- "sp-tracing 4.0.0-dev (git+https://github.com/cennznet/substrate)",
- "sp-version 4.0.0-dev (git+https://github.com/cennznet/substrate)",
+ "sp-core",
+ "sp-rpc",
+ "sp-runtime",
+ "sp-tracing",
+ "sp-version",
  "thiserror",
 ]
 
@@ -6721,24 +6341,7 @@ dependencies = [
  "jsonrpc-ws-server",
  "log",
  "serde_json",
- "substrate-prometheus-endpoint 0.10.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "tokio",
-]
-
-[[package]]
-name = "sc-rpc-server"
-version = "4.0.0-dev"
-source = "git+https://github.com/cennznet/substrate#2db18f864ae2bb50e60e497b7ac2c521daf83af6"
-dependencies = [
- "futures 0.3.17",
- "jsonrpc-core",
- "jsonrpc-http-server",
- "jsonrpc-ipc-server",
- "jsonrpc-pubsub",
- "jsonrpc-ws-server",
- "log",
- "serde_json",
- "substrate-prometheus-endpoint 0.10.0-dev (git+https://github.com/cennznet/substrate)",
+ "substrate-prometheus-endpoint",
  "tokio",
 ]
 
@@ -6761,108 +6364,44 @@ dependencies = [
  "parking_lot",
  "pin-project 1.0.8",
  "rand 0.7.3",
- "sc-block-builder 0.10.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sc-chain-spec 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sc-client-api 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sc-client-db 0.10.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sc-consensus 0.10.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sc-executor 0.10.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sc-informant 0.10.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sc-keystore 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sc-network 0.10.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sc-offchain 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sc-rpc 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sc-rpc-server 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sc-telemetry 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sc-tracing 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sc-transaction-pool 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sc-transaction-pool-api 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sc-utils 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
+ "sc-block-builder",
+ "sc-chain-spec",
+ "sc-client-api",
+ "sc-client-db",
+ "sc-consensus",
+ "sc-executor",
+ "sc-informant",
+ "sc-keystore",
+ "sc-network",
+ "sc-offchain",
+ "sc-rpc",
+ "sc-rpc-server",
+ "sc-telemetry",
+ "sc-tracing",
+ "sc-transaction-pool",
+ "sc-transaction-pool-api",
+ "sc-utils",
  "serde",
  "serde_json",
- "sp-api 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-application-crypto 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-block-builder 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-blockchain 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-consensus 0.10.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-core 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-externalities 0.10.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-inherents 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-keystore 0.10.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-runtime 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-session 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-state-machine 0.10.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-storage 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-tracing 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-transaction-pool 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-transaction-storage-proof 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-trie 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-version 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "substrate-prometheus-endpoint 0.10.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "tempfile",
- "thiserror",
- "tokio",
- "tracing",
- "tracing-futures",
-]
-
-[[package]]
-name = "sc-service"
-version = "0.10.0-dev"
-source = "git+https://github.com/cennznet/substrate#2db18f864ae2bb50e60e497b7ac2c521daf83af6"
-dependencies = [
- "async-trait",
- "directories",
- "exit-future",
- "futures 0.3.17",
- "futures-timer 3.0.2",
- "hash-db",
- "jsonrpc-core",
- "jsonrpc-pubsub",
- "log",
- "parity-scale-codec",
- "parity-util-mem",
- "parking_lot",
- "pin-project 1.0.8",
- "rand 0.7.3",
- "sc-block-builder 0.10.0-dev (git+https://github.com/cennznet/substrate)",
- "sc-chain-spec 4.0.0-dev (git+https://github.com/cennznet/substrate)",
- "sc-client-api 4.0.0-dev (git+https://github.com/cennznet/substrate)",
- "sc-client-db 0.10.0-dev (git+https://github.com/cennznet/substrate)",
- "sc-consensus 0.10.0-dev (git+https://github.com/cennznet/substrate)",
- "sc-executor 0.10.0-dev (git+https://github.com/cennznet/substrate)",
- "sc-informant 0.10.0-dev (git+https://github.com/cennznet/substrate)",
- "sc-keystore 4.0.0-dev (git+https://github.com/cennznet/substrate)",
- "sc-network 0.10.0-dev (git+https://github.com/cennznet/substrate)",
- "sc-offchain 4.0.0-dev (git+https://github.com/cennznet/substrate)",
- "sc-rpc 4.0.0-dev (git+https://github.com/cennznet/substrate)",
- "sc-rpc-server 4.0.0-dev (git+https://github.com/cennznet/substrate)",
- "sc-telemetry 4.0.0-dev (git+https://github.com/cennznet/substrate)",
- "sc-tracing 4.0.0-dev (git+https://github.com/cennznet/substrate)",
- "sc-transaction-pool 4.0.0-dev (git+https://github.com/cennznet/substrate)",
- "sc-transaction-pool-api 4.0.0-dev (git+https://github.com/cennznet/substrate)",
- "sc-utils 4.0.0-dev (git+https://github.com/cennznet/substrate)",
- "serde",
- "serde_json",
- "sp-api 4.0.0-dev (git+https://github.com/cennznet/substrate)",
- "sp-application-crypto 4.0.0-dev (git+https://github.com/cennznet/substrate)",
- "sp-block-builder 4.0.0-dev (git+https://github.com/cennznet/substrate)",
- "sp-blockchain 4.0.0-dev (git+https://github.com/cennznet/substrate)",
- "sp-consensus 0.10.0-dev (git+https://github.com/cennznet/substrate)",
- "sp-core 4.0.0-dev (git+https://github.com/cennznet/substrate)",
- "sp-externalities 0.10.0-dev (git+https://github.com/cennznet/substrate)",
- "sp-inherents 4.0.0-dev (git+https://github.com/cennznet/substrate)",
- "sp-keystore 0.10.0-dev (git+https://github.com/cennznet/substrate)",
- "sp-runtime 4.0.0-dev (git+https://github.com/cennznet/substrate)",
- "sp-session 4.0.0-dev (git+https://github.com/cennznet/substrate)",
- "sp-state-machine 0.10.0-dev (git+https://github.com/cennznet/substrate)",
- "sp-storage 4.0.0-dev (git+https://github.com/cennznet/substrate)",
- "sp-tracing 4.0.0-dev (git+https://github.com/cennznet/substrate)",
- "sp-transaction-pool 4.0.0-dev (git+https://github.com/cennznet/substrate)",
- "sp-transaction-storage-proof 4.0.0-dev (git+https://github.com/cennznet/substrate)",
- "sp-trie 4.0.0-dev (git+https://github.com/cennznet/substrate)",
- "sp-version 4.0.0-dev (git+https://github.com/cennznet/substrate)",
- "substrate-prometheus-endpoint 0.10.0-dev (git+https://github.com/cennznet/substrate)",
+ "sp-api",
+ "sp-application-crypto",
+ "sp-block-builder",
+ "sp-blockchain",
+ "sp-consensus",
+ "sp-core",
+ "sp-externalities",
+ "sp-inherents",
+ "sp-keystore",
+ "sp-runtime",
+ "sp-session",
+ "sp-state-machine",
+ "sp-storage",
+ "sp-tracing",
+ "sp-transaction-pool",
+ "sp-transaction-storage-proof",
+ "sp-trie",
+ "sp-version",
+ "substrate-prometheus-endpoint",
  "tempfile",
  "thiserror",
  "tokio",
@@ -6880,46 +6419,14 @@ dependencies = [
  "parity-util-mem",
  "parity-util-mem-derive",
  "parking_lot",
- "sc-client-api 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-core 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
-]
-
-[[package]]
-name = "sc-state-db"
-version = "0.10.0-dev"
-source = "git+https://github.com/cennznet/substrate#2db18f864ae2bb50e60e497b7ac2c521daf83af6"
-dependencies = [
- "log",
- "parity-scale-codec",
- "parity-util-mem",
- "parity-util-mem-derive",
- "parking_lot",
- "sc-client-api 4.0.0-dev (git+https://github.com/cennznet/substrate)",
- "sp-core 4.0.0-dev (git+https://github.com/cennznet/substrate)",
+ "sc-client-api",
+ "sp-core",
 ]
 
 [[package]]
 name = "sc-telemetry"
 version = "4.0.0-dev"
 source = "git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6#2db18f864ae2bb50e60e497b7ac2c521daf83af6"
-dependencies = [
- "chrono",
- "futures 0.3.17",
- "libp2p",
- "log",
- "parking_lot",
- "pin-project 1.0.8",
- "rand 0.7.3",
- "serde",
- "serde_json",
- "thiserror",
- "wasm-timer",
-]
-
-[[package]]
-name = "sc-telemetry"
-version = "4.0.0-dev"
-source = "git+https://github.com/cennznet/substrate#2db18f864ae2bb50e60e497b7ac2c521daf83af6"
 dependencies = [
  "chrono",
  "futures 0.3.17",
@@ -6949,47 +6456,16 @@ dependencies = [
  "parking_lot",
  "regex",
  "rustc-hash",
- "sc-client-api 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sc-rpc-server 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sc-tracing-proc-macro 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
+ "sc-client-api",
+ "sc-rpc-server",
+ "sc-tracing-proc-macro",
  "serde",
- "sp-api 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-blockchain 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-core 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-rpc 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-runtime 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-tracing 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "thiserror",
- "tracing",
- "tracing-log",
- "tracing-subscriber",
-]
-
-[[package]]
-name = "sc-tracing"
-version = "4.0.0-dev"
-source = "git+https://github.com/cennznet/substrate#2db18f864ae2bb50e60e497b7ac2c521daf83af6"
-dependencies = [
- "ansi_term 0.12.1",
- "atty",
- "chrono",
- "lazy_static",
- "libc",
- "log",
- "once_cell",
- "parking_lot",
- "regex",
- "rustc-hash",
- "sc-client-api 4.0.0-dev (git+https://github.com/cennznet/substrate)",
- "sc-rpc-server 4.0.0-dev (git+https://github.com/cennznet/substrate)",
- "sc-tracing-proc-macro 4.0.0-dev (git+https://github.com/cennznet/substrate)",
- "serde",
- "sp-api 4.0.0-dev (git+https://github.com/cennznet/substrate)",
- "sp-blockchain 4.0.0-dev (git+https://github.com/cennznet/substrate)",
- "sp-core 4.0.0-dev (git+https://github.com/cennznet/substrate)",
- "sp-rpc 4.0.0-dev (git+https://github.com/cennznet/substrate)",
- "sp-runtime 4.0.0-dev (git+https://github.com/cennznet/substrate)",
- "sp-tracing 4.0.0-dev (git+https://github.com/cennznet/substrate)",
+ "sp-api",
+ "sp-blockchain",
+ "sp-core",
+ "sp-rpc",
+ "sp-runtime",
+ "sp-tracing",
  "thiserror",
  "tracing",
  "tracing-log",
@@ -7000,17 +6476,6 @@ dependencies = [
 name = "sc-tracing-proc-macro"
 version = "4.0.0-dev"
 source = "git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6#2db18f864ae2bb50e60e497b7ac2c521daf83af6"
-dependencies = [
- "proc-macro-crate 1.1.0",
- "proc-macro2",
- "quote",
- "syn",
-]
-
-[[package]]
-name = "sc-tracing-proc-macro"
-version = "4.0.0-dev"
-source = "git+https://github.com/cennznet/substrate#2db18f864ae2bb50e60e497b7ac2c521daf83af6"
 dependencies = [
  "proc-macro-crate 1.1.0",
  "proc-macro2",
@@ -7031,44 +6496,17 @@ dependencies = [
  "parity-util-mem",
  "parking_lot",
  "retain_mut",
- "sc-client-api 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sc-transaction-pool-api 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sc-utils 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
+ "sc-client-api",
+ "sc-transaction-pool-api",
+ "sc-utils",
  "serde",
- "sp-api 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-blockchain 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-core 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-runtime 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-tracing 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-transaction-pool 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "substrate-prometheus-endpoint 0.10.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "thiserror",
-]
-
-[[package]]
-name = "sc-transaction-pool"
-version = "4.0.0-dev"
-source = "git+https://github.com/cennznet/substrate#2db18f864ae2bb50e60e497b7ac2c521daf83af6"
-dependencies = [
- "futures 0.3.17",
- "intervalier",
- "linked-hash-map",
- "log",
- "parity-scale-codec",
- "parity-util-mem",
- "parking_lot",
- "retain_mut",
- "sc-client-api 4.0.0-dev (git+https://github.com/cennznet/substrate)",
- "sc-transaction-pool-api 4.0.0-dev (git+https://github.com/cennznet/substrate)",
- "sc-utils 4.0.0-dev (git+https://github.com/cennznet/substrate)",
- "serde",
- "sp-api 4.0.0-dev (git+https://github.com/cennznet/substrate)",
- "sp-blockchain 4.0.0-dev (git+https://github.com/cennznet/substrate)",
- "sp-core 4.0.0-dev (git+https://github.com/cennznet/substrate)",
- "sp-runtime 4.0.0-dev (git+https://github.com/cennznet/substrate)",
- "sp-tracing 4.0.0-dev (git+https://github.com/cennznet/substrate)",
- "sp-transaction-pool 4.0.0-dev (git+https://github.com/cennznet/substrate)",
- "substrate-prometheus-endpoint 0.10.0-dev (git+https://github.com/cennznet/substrate)",
+ "sp-api",
+ "sp-blockchain",
+ "sp-core",
+ "sp-runtime",
+ "sp-tracing",
+ "sp-transaction-pool",
+ "substrate-prometheus-endpoint",
  "thiserror",
 ]
 
@@ -7081,22 +6519,8 @@ dependencies = [
  "futures 0.3.17",
  "log",
  "serde",
- "sp-blockchain 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-runtime 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "thiserror",
-]
-
-[[package]]
-name = "sc-transaction-pool-api"
-version = "4.0.0-dev"
-source = "git+https://github.com/cennznet/substrate#2db18f864ae2bb50e60e497b7ac2c521daf83af6"
-dependencies = [
- "derive_more",
- "futures 0.3.17",
- "log",
- "serde",
- "sp-blockchain 4.0.0-dev (git+https://github.com/cennznet/substrate)",
- "sp-runtime 4.0.0-dev (git+https://github.com/cennznet/substrate)",
+ "sp-blockchain",
+ "sp-runtime",
  "thiserror",
 ]
 
@@ -7104,17 +6528,6 @@ dependencies = [
 name = "sc-utils"
 version = "4.0.0-dev"
 source = "git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6#2db18f864ae2bb50e60e497b7ac2c521daf83af6"
-dependencies = [
- "futures 0.3.17",
- "futures-timer 3.0.2",
- "lazy_static",
- "prometheus",
-]
-
-[[package]]
-name = "sc-utils"
-version = "4.0.0-dev"
-source = "git+https://github.com/cennznet/substrate#2db18f864ae2bb50e60e497b7ac2c521daf83af6"
 dependencies = [
  "futures 0.3.17",
  "futures-timer 3.0.2",
@@ -7520,29 +6933,12 @@ dependencies = [
  "hash-db",
  "log",
  "parity-scale-codec",
- "sp-api-proc-macro 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-core 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-runtime 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-state-machine 0.10.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-std 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-version 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "thiserror",
-]
-
-[[package]]
-name = "sp-api"
-version = "4.0.0-dev"
-source = "git+https://github.com/cennznet/substrate#2db18f864ae2bb50e60e497b7ac2c521daf83af6"
-dependencies = [
- "hash-db",
- "log",
- "parity-scale-codec",
- "sp-api-proc-macro 4.0.0-dev (git+https://github.com/cennznet/substrate)",
- "sp-core 4.0.0-dev (git+https://github.com/cennznet/substrate)",
- "sp-runtime 4.0.0-dev (git+https://github.com/cennznet/substrate)",
- "sp-state-machine 0.10.0-dev (git+https://github.com/cennznet/substrate)",
- "sp-std 4.0.0-dev (git+https://github.com/cennznet/substrate)",
- "sp-version 4.0.0-dev (git+https://github.com/cennznet/substrate)",
+ "sp-api-proc-macro",
+ "sp-core",
+ "sp-runtime",
+ "sp-state-machine",
+ "sp-std",
+ "sp-version",
  "thiserror",
 ]
 
@@ -7559,18 +6955,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "sp-api-proc-macro"
-version = "4.0.0-dev"
-source = "git+https://github.com/cennznet/substrate#2db18f864ae2bb50e60e497b7ac2c521daf83af6"
-dependencies = [
- "blake2-rfc",
- "proc-macro-crate 1.1.0",
- "proc-macro2",
- "quote",
- "syn",
-]
-
-[[package]]
 name = "sp-application-crypto"
 version = "4.0.0-dev"
 source = "git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6#2db18f864ae2bb50e60e497b7ac2c521daf83af6"
@@ -7578,22 +6962,9 @@ dependencies = [
  "parity-scale-codec",
  "scale-info",
  "serde",
- "sp-core 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-io 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-std 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
-]
-
-[[package]]
-name = "sp-application-crypto"
-version = "4.0.0-dev"
-source = "git+https://github.com/cennznet/substrate#2db18f864ae2bb50e60e497b7ac2c521daf83af6"
-dependencies = [
- "parity-scale-codec",
- "scale-info",
- "serde",
- "sp-core 4.0.0-dev (git+https://github.com/cennznet/substrate)",
- "sp-io 4.0.0-dev (git+https://github.com/cennznet/substrate)",
- "sp-std 4.0.0-dev (git+https://github.com/cennznet/substrate)",
+ "sp-core",
+ "sp-io",
+ "sp-std",
 ]
 
 [[package]]
@@ -7606,23 +6977,8 @@ dependencies = [
  "parity-scale-codec",
  "scale-info",
  "serde",
- "sp-debug-derive 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-std 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "static_assertions",
-]
-
-[[package]]
-name = "sp-arithmetic"
-version = "4.0.0-dev"
-source = "git+https://github.com/cennznet/substrate#2db18f864ae2bb50e60e497b7ac2c521daf83af6"
-dependencies = [
- "integer-sqrt",
- "num-traits",
- "parity-scale-codec",
- "scale-info",
- "serde",
- "sp-debug-derive 4.0.0-dev (git+https://github.com/cennznet/substrate)",
- "sp-std 4.0.0-dev (git+https://github.com/cennznet/substrate)",
+ "sp-debug-derive",
+ "sp-std",
  "static_assertions",
 ]
 
@@ -7633,9 +6989,9 @@ source = "git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b
 dependencies = [
  "async-trait",
  "parity-scale-codec",
- "sp-inherents 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-runtime 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-std 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
+ "sp-inherents",
+ "sp-runtime",
+ "sp-std",
 ]
 
 [[package]]
@@ -7644,22 +7000,10 @@ version = "4.0.0-dev"
 source = "git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6#2db18f864ae2bb50e60e497b7ac2c521daf83af6"
 dependencies = [
  "parity-scale-codec",
- "sp-api 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-inherents 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-runtime 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-std 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
-]
-
-[[package]]
-name = "sp-block-builder"
-version = "4.0.0-dev"
-source = "git+https://github.com/cennznet/substrate#2db18f864ae2bb50e60e497b7ac2c521daf83af6"
-dependencies = [
- "parity-scale-codec",
- "sp-api 4.0.0-dev (git+https://github.com/cennznet/substrate)",
- "sp-inherents 4.0.0-dev (git+https://github.com/cennznet/substrate)",
- "sp-runtime 4.0.0-dev (git+https://github.com/cennznet/substrate)",
- "sp-std 4.0.0-dev (git+https://github.com/cennznet/substrate)",
+ "sp-api",
+ "sp-inherents",
+ "sp-runtime",
+ "sp-std",
 ]
 
 [[package]]
@@ -7672,29 +7016,11 @@ dependencies = [
  "lru 0.7.1",
  "parity-scale-codec",
  "parking_lot",
- "sp-api 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-consensus 0.10.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-database 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-runtime 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-state-machine 0.10.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "thiserror",
-]
-
-[[package]]
-name = "sp-blockchain"
-version = "4.0.0-dev"
-source = "git+https://github.com/cennznet/substrate#2db18f864ae2bb50e60e497b7ac2c521daf83af6"
-dependencies = [
- "futures 0.3.17",
- "log",
- "lru 0.7.1",
- "parity-scale-codec",
- "parking_lot",
- "sp-api 4.0.0-dev (git+https://github.com/cennznet/substrate)",
- "sp-consensus 0.10.0-dev (git+https://github.com/cennznet/substrate)",
- "sp-database 4.0.0-dev (git+https://github.com/cennznet/substrate)",
- "sp-runtime 4.0.0-dev (git+https://github.com/cennznet/substrate)",
- "sp-state-machine 0.10.0-dev (git+https://github.com/cennznet/substrate)",
+ "sp-api",
+ "sp-consensus",
+ "sp-database",
+ "sp-runtime",
+ "sp-state-machine",
  "thiserror",
 ]
 
@@ -7708,31 +7034,12 @@ dependencies = [
  "futures-timer 3.0.2",
  "log",
  "parity-scale-codec",
- "sp-core 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-inherents 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-runtime 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-state-machine 0.10.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-std 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-version 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "thiserror",
-]
-
-[[package]]
-name = "sp-consensus"
-version = "0.10.0-dev"
-source = "git+https://github.com/cennznet/substrate#2db18f864ae2bb50e60e497b7ac2c521daf83af6"
-dependencies = [
- "async-trait",
- "futures 0.3.17",
- "futures-timer 3.0.2",
- "log",
- "parity-scale-codec",
- "sp-core 4.0.0-dev (git+https://github.com/cennznet/substrate)",
- "sp-inherents 4.0.0-dev (git+https://github.com/cennznet/substrate)",
- "sp-runtime 4.0.0-dev (git+https://github.com/cennznet/substrate)",
- "sp-state-machine 0.10.0-dev (git+https://github.com/cennznet/substrate)",
- "sp-std 4.0.0-dev (git+https://github.com/cennznet/substrate)",
- "sp-version 4.0.0-dev (git+https://github.com/cennznet/substrate)",
+ "sp-core",
+ "sp-inherents",
+ "sp-runtime",
+ "sp-state-machine",
+ "sp-std",
+ "sp-version",
  "thiserror",
 ]
 
@@ -7744,13 +7051,13 @@ dependencies = [
  "async-trait",
  "parity-scale-codec",
  "scale-info",
- "sp-api 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-application-crypto 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-consensus 0.10.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
+ "sp-api",
+ "sp-application-crypto",
+ "sp-consensus",
  "sp-consensus-slots",
- "sp-inherents 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-runtime 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-std 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
+ "sp-inherents",
+ "sp-runtime",
+ "sp-std",
  "sp-timestamp",
 ]
 
@@ -7764,16 +7071,16 @@ dependencies = [
  "parity-scale-codec",
  "scale-info",
  "serde",
- "sp-api 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-application-crypto 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-consensus 0.10.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
+ "sp-api",
+ "sp-application-crypto",
+ "sp-consensus",
  "sp-consensus-slots",
  "sp-consensus-vrf",
- "sp-core 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-inherents 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-keystore 0.10.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-runtime 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-std 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
+ "sp-core",
+ "sp-inherents",
+ "sp-keystore",
+ "sp-runtime",
+ "sp-std",
  "sp-timestamp",
 ]
 
@@ -7785,8 +7092,8 @@ dependencies = [
  "parity-scale-codec",
  "scale-info",
  "serde",
- "sp-arithmetic 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-runtime 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
+ "sp-arithmetic",
+ "sp-runtime",
 ]
 
 [[package]]
@@ -7796,9 +7103,9 @@ source = "git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b
 dependencies = [
  "parity-scale-codec",
  "schnorrkel",
- "sp-core 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-runtime 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-std 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
+ "sp-core",
+ "sp-runtime",
+ "sp-std",
 ]
 
 [[package]]
@@ -7833,60 +7140,12 @@ dependencies = [
  "secrecy",
  "serde",
  "sha2 0.9.8",
- "sp-core-hashing 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-debug-derive 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-externalities 0.10.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-runtime-interface 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-std 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-storage 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "ss58-registry",
- "substrate-bip39",
- "thiserror",
- "tiny-bip39",
- "tiny-keccak",
- "twox-hash",
- "wasmi",
- "zeroize",
-]
-
-[[package]]
-name = "sp-core"
-version = "4.0.0-dev"
-source = "git+https://github.com/cennznet/substrate#2db18f864ae2bb50e60e497b7ac2c521daf83af6"
-dependencies = [
- "base58",
- "bitflags",
- "blake2-rfc",
- "byteorder",
- "dyn-clonable",
- "ed25519-dalek",
- "futures 0.3.17",
- "hash-db",
- "hash256-std-hasher",
- "hex",
- "impl-serde",
- "lazy_static",
- "libsecp256k1 0.7.0",
- "log",
- "merlin",
- "num-traits",
- "parity-scale-codec",
- "parity-util-mem",
- "parking_lot",
- "primitive-types",
- "rand 0.7.3",
- "regex",
- "scale-info",
- "schnorrkel",
- "secrecy",
- "serde",
- "sha2 0.9.8",
- "sp-core-hashing 4.0.0-dev (git+https://github.com/cennznet/substrate)",
- "sp-debug-derive 4.0.0-dev (git+https://github.com/cennznet/substrate)",
- "sp-externalities 0.10.0-dev (git+https://github.com/cennznet/substrate)",
- "sp-runtime-interface 4.0.0-dev (git+https://github.com/cennznet/substrate)",
- "sp-std 4.0.0-dev (git+https://github.com/cennznet/substrate)",
- "sp-storage 4.0.0-dev (git+https://github.com/cennznet/substrate)",
+ "sp-core-hashing",
+ "sp-debug-derive",
+ "sp-externalities",
+ "sp-runtime-interface",
+ "sp-std",
+ "sp-storage",
  "ss58-registry",
  "substrate-bip39",
  "thiserror",
@@ -7905,20 +7164,7 @@ dependencies = [
  "blake2-rfc",
  "byteorder",
  "sha2 0.9.8",
- "sp-std 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "tiny-keccak",
- "twox-hash",
-]
-
-[[package]]
-name = "sp-core-hashing"
-version = "4.0.0-dev"
-source = "git+https://github.com/cennznet/substrate#2db18f864ae2bb50e60e497b7ac2c521daf83af6"
-dependencies = [
- "blake2-rfc",
- "byteorder",
- "sha2 0.9.8",
- "sp-std 4.0.0-dev (git+https://github.com/cennznet/substrate)",
+ "sp-std",
  "tiny-keccak",
  "twox-hash",
 ]
@@ -7930,18 +7176,7 @@ source = "git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b
 dependencies = [
  "proc-macro2",
  "quote",
- "sp-core-hashing 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "syn",
-]
-
-[[package]]
-name = "sp-core-hashing-proc-macro"
-version = "4.0.0-dev"
-source = "git+https://github.com/cennznet/substrate#2db18f864ae2bb50e60e497b7ac2c521daf83af6"
-dependencies = [
- "proc-macro2",
- "quote",
- "sp-core-hashing 4.0.0-dev (git+https://github.com/cennznet/substrate)",
+ "sp-core-hashing",
  "syn",
 ]
 
@@ -7949,15 +7184,6 @@ dependencies = [
 name = "sp-database"
 version = "4.0.0-dev"
 source = "git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6#2db18f864ae2bb50e60e497b7ac2c521daf83af6"
-dependencies = [
- "kvdb",
- "parking_lot",
-]
-
-[[package]]
-name = "sp-database"
-version = "4.0.0-dev"
-source = "git+https://github.com/cennznet/substrate#2db18f864ae2bb50e60e497b7ac2c521daf83af6"
 dependencies = [
  "kvdb",
  "parking_lot",
@@ -7974,35 +7200,14 @@ dependencies = [
 ]
 
 [[package]]
-name = "sp-debug-derive"
-version = "4.0.0-dev"
-source = "git+https://github.com/cennznet/substrate#2db18f864ae2bb50e60e497b7ac2c521daf83af6"
-dependencies = [
- "proc-macro2",
- "quote",
- "syn",
-]
-
-[[package]]
 name = "sp-externalities"
 version = "0.10.0-dev"
 source = "git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6#2db18f864ae2bb50e60e497b7ac2c521daf83af6"
 dependencies = [
  "environmental",
  "parity-scale-codec",
- "sp-std 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-storage 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
-]
-
-[[package]]
-name = "sp-externalities"
-version = "0.10.0-dev"
-source = "git+https://github.com/cennznet/substrate#2db18f864ae2bb50e60e497b7ac2c521daf83af6"
-dependencies = [
- "environmental",
- "parity-scale-codec",
- "sp-std 4.0.0-dev (git+https://github.com/cennznet/substrate)",
- "sp-storage 4.0.0-dev (git+https://github.com/cennznet/substrate)",
+ "sp-std",
+ "sp-storage",
 ]
 
 [[package]]
@@ -8015,30 +7220,12 @@ dependencies = [
  "parity-scale-codec",
  "scale-info",
  "serde",
- "sp-api 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-application-crypto 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-core 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-keystore 0.10.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-runtime 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-std 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
-]
-
-[[package]]
-name = "sp-finality-grandpa"
-version = "4.0.0-dev"
-source = "git+https://github.com/cennznet/substrate#2db18f864ae2bb50e60e497b7ac2c521daf83af6"
-dependencies = [
- "finality-grandpa",
- "log",
- "parity-scale-codec",
- "scale-info",
- "serde",
- "sp-api 4.0.0-dev (git+https://github.com/cennznet/substrate)",
- "sp-application-crypto 4.0.0-dev (git+https://github.com/cennznet/substrate)",
- "sp-core 4.0.0-dev (git+https://github.com/cennznet/substrate)",
- "sp-keystore 0.10.0-dev (git+https://github.com/cennznet/substrate)",
- "sp-runtime 4.0.0-dev (git+https://github.com/cennznet/substrate)",
- "sp-std 4.0.0-dev (git+https://github.com/cennznet/substrate)",
+ "sp-api",
+ "sp-application-crypto",
+ "sp-core",
+ "sp-keystore",
+ "sp-runtime",
+ "sp-std",
 ]
 
 [[package]]
@@ -8049,23 +7236,9 @@ dependencies = [
  "async-trait",
  "impl-trait-for-tuples",
  "parity-scale-codec",
- "sp-core 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-runtime 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-std 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "thiserror",
-]
-
-[[package]]
-name = "sp-inherents"
-version = "4.0.0-dev"
-source = "git+https://github.com/cennznet/substrate#2db18f864ae2bb50e60e497b7ac2c521daf83af6"
-dependencies = [
- "async-trait",
- "impl-trait-for-tuples",
- "parity-scale-codec",
- "sp-core 4.0.0-dev (git+https://github.com/cennznet/substrate)",
- "sp-runtime 4.0.0-dev (git+https://github.com/cennznet/substrate)",
- "sp-std 4.0.0-dev (git+https://github.com/cennznet/substrate)",
+ "sp-core",
+ "sp-runtime",
+ "sp-std",
  "thiserror",
 ]
 
@@ -8080,39 +7253,15 @@ dependencies = [
  "log",
  "parity-scale-codec",
  "parking_lot",
- "sp-core 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-externalities 0.10.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-keystore 0.10.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-runtime-interface 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-state-machine 0.10.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-std 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-tracing 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-trie 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-wasm-interface 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "tracing",
- "tracing-core",
-]
-
-[[package]]
-name = "sp-io"
-version = "4.0.0-dev"
-source = "git+https://github.com/cennznet/substrate#2db18f864ae2bb50e60e497b7ac2c521daf83af6"
-dependencies = [
- "futures 0.3.17",
- "hash-db",
- "libsecp256k1 0.7.0",
- "log",
- "parity-scale-codec",
- "parking_lot",
- "sp-core 4.0.0-dev (git+https://github.com/cennznet/substrate)",
- "sp-externalities 0.10.0-dev (git+https://github.com/cennznet/substrate)",
- "sp-keystore 0.10.0-dev (git+https://github.com/cennznet/substrate)",
- "sp-runtime-interface 4.0.0-dev (git+https://github.com/cennznet/substrate)",
- "sp-state-machine 0.10.0-dev (git+https://github.com/cennznet/substrate)",
- "sp-std 4.0.0-dev (git+https://github.com/cennznet/substrate)",
- "sp-tracing 4.0.0-dev (git+https://github.com/cennznet/substrate)",
- "sp-trie 4.0.0-dev (git+https://github.com/cennznet/substrate)",
- "sp-wasm-interface 4.0.0-dev (git+https://github.com/cennznet/substrate)",
+ "sp-core",
+ "sp-externalities",
+ "sp-keystore",
+ "sp-runtime-interface",
+ "sp-state-machine",
+ "sp-std",
+ "sp-tracing",
+ "sp-trie",
+ "sp-wasm-interface",
  "tracing",
  "tracing-core",
 ]
@@ -8123,8 +7272,8 @@ version = "4.0.0-dev"
 source = "git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6#2db18f864ae2bb50e60e497b7ac2c521daf83af6"
 dependencies = [
  "lazy_static",
- "sp-core 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-runtime 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
+ "sp-core",
+ "sp-runtime",
  "strum",
 ]
 
@@ -8141,25 +7290,8 @@ dependencies = [
  "parking_lot",
  "schnorrkel",
  "serde",
- "sp-core 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-externalities 0.10.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
-]
-
-[[package]]
-name = "sp-keystore"
-version = "0.10.0-dev"
-source = "git+https://github.com/cennznet/substrate#2db18f864ae2bb50e60e497b7ac2c521daf83af6"
-dependencies = [
- "async-trait",
- "derive_more",
- "futures 0.3.17",
- "merlin",
- "parity-scale-codec",
- "parking_lot",
- "schnorrkel",
- "serde",
- "sp-core 4.0.0-dev (git+https://github.com/cennznet/substrate)",
- "sp-externalities 0.10.0-dev (git+https://github.com/cennznet/substrate)",
+ "sp-core",
+ "sp-externalities",
 ]
 
 [[package]]
@@ -8171,31 +7303,13 @@ dependencies = [
 ]
 
 [[package]]
-name = "sp-maybe-compressed-blob"
-version = "4.1.0-dev"
-source = "git+https://github.com/cennznet/substrate#2db18f864ae2bb50e60e497b7ac2c521daf83af6"
-dependencies = [
- "zstd",
-]
-
-[[package]]
 name = "sp-offchain"
 version = "4.0.0-dev"
 source = "git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6#2db18f864ae2bb50e60e497b7ac2c521daf83af6"
 dependencies = [
- "sp-api 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-core 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-runtime 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
-]
-
-[[package]]
-name = "sp-offchain"
-version = "4.0.0-dev"
-source = "git+https://github.com/cennznet/substrate#2db18f864ae2bb50e60e497b7ac2c521daf83af6"
-dependencies = [
- "sp-api 4.0.0-dev (git+https://github.com/cennznet/substrate)",
- "sp-core 4.0.0-dev (git+https://github.com/cennznet/substrate)",
- "sp-runtime 4.0.0-dev (git+https://github.com/cennznet/substrate)",
+ "sp-api",
+ "sp-core",
+ "sp-runtime",
 ]
 
 [[package]]
@@ -8209,33 +7323,13 @@ dependencies = [
 ]
 
 [[package]]
-name = "sp-panic-handler"
-version = "4.0.0-dev"
-source = "git+https://github.com/cennznet/substrate#2db18f864ae2bb50e60e497b7ac2c521daf83af6"
-dependencies = [
- "backtrace",
- "lazy_static",
- "regex",
-]
-
-[[package]]
 name = "sp-rpc"
 version = "4.0.0-dev"
 source = "git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6#2db18f864ae2bb50e60e497b7ac2c521daf83af6"
 dependencies = [
  "rustc-hash",
  "serde",
- "sp-core 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
-]
-
-[[package]]
-name = "sp-rpc"
-version = "4.0.0-dev"
-source = "git+https://github.com/cennznet/substrate#2db18f864ae2bb50e60e497b7ac2c521daf83af6"
-dependencies = [
- "rustc-hash",
- "serde",
- "sp-core 4.0.0-dev (git+https://github.com/cennznet/substrate)",
+ "sp-core",
 ]
 
 [[package]]
@@ -8253,33 +7347,11 @@ dependencies = [
  "rand 0.7.3",
  "scale-info",
  "serde",
- "sp-application-crypto 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-arithmetic 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-core 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-io 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-std 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
-]
-
-[[package]]
-name = "sp-runtime"
-version = "4.0.0-dev"
-source = "git+https://github.com/cennznet/substrate#2db18f864ae2bb50e60e497b7ac2c521daf83af6"
-dependencies = [
- "either",
- "hash256-std-hasher",
- "impl-trait-for-tuples",
- "log",
- "parity-scale-codec",
- "parity-util-mem",
- "paste",
- "rand 0.7.3",
- "scale-info",
- "serde",
- "sp-application-crypto 4.0.0-dev (git+https://github.com/cennznet/substrate)",
- "sp-arithmetic 4.0.0-dev (git+https://github.com/cennznet/substrate)",
- "sp-core 4.0.0-dev (git+https://github.com/cennznet/substrate)",
- "sp-io 4.0.0-dev (git+https://github.com/cennznet/substrate)",
- "sp-std 4.0.0-dev (git+https://github.com/cennznet/substrate)",
+ "sp-application-crypto",
+ "sp-arithmetic",
+ "sp-core",
+ "sp-io",
+ "sp-std",
 ]
 
 [[package]]
@@ -8290,29 +7362,12 @@ dependencies = [
  "impl-trait-for-tuples",
  "parity-scale-codec",
  "primitive-types",
- "sp-externalities 0.10.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-runtime-interface-proc-macro 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-std 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-storage 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-tracing 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-wasm-interface 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "static_assertions",
-]
-
-[[package]]
-name = "sp-runtime-interface"
-version = "4.0.0-dev"
-source = "git+https://github.com/cennznet/substrate#2db18f864ae2bb50e60e497b7ac2c521daf83af6"
-dependencies = [
- "impl-trait-for-tuples",
- "parity-scale-codec",
- "primitive-types",
- "sp-externalities 0.10.0-dev (git+https://github.com/cennznet/substrate)",
- "sp-runtime-interface-proc-macro 4.0.0-dev (git+https://github.com/cennznet/substrate)",
- "sp-std 4.0.0-dev (git+https://github.com/cennznet/substrate)",
- "sp-storage 4.0.0-dev (git+https://github.com/cennznet/substrate)",
- "sp-tracing 4.0.0-dev (git+https://github.com/cennznet/substrate)",
- "sp-wasm-interface 4.0.0-dev (git+https://github.com/cennznet/substrate)",
+ "sp-externalities",
+ "sp-runtime-interface-proc-macro",
+ "sp-std",
+ "sp-storage",
+ "sp-tracing",
+ "sp-wasm-interface",
  "static_assertions",
 ]
 
@@ -8320,18 +7375,6 @@ dependencies = [
 name = "sp-runtime-interface-proc-macro"
 version = "4.0.0-dev"
 source = "git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6#2db18f864ae2bb50e60e497b7ac2c521daf83af6"
-dependencies = [
- "Inflector",
- "proc-macro-crate 1.1.0",
- "proc-macro2",
- "quote",
- "syn",
-]
-
-[[package]]
-name = "sp-runtime-interface-proc-macro"
-version = "4.0.0-dev"
-source = "git+https://github.com/cennznet/substrate#2db18f864ae2bb50e60e497b7ac2c521daf83af6"
 dependencies = [
  "Inflector",
  "proc-macro-crate 1.1.0",
@@ -8350,40 +7393,17 @@ dependencies = [
 ]
 
 [[package]]
-name = "sp-serializer"
-version = "4.0.0-dev"
-source = "git+https://github.com/cennznet/substrate#2db18f864ae2bb50e60e497b7ac2c521daf83af6"
-dependencies = [
- "serde",
- "serde_json",
-]
-
-[[package]]
 name = "sp-session"
 version = "4.0.0-dev"
 source = "git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6#2db18f864ae2bb50e60e497b7ac2c521daf83af6"
 dependencies = [
  "parity-scale-codec",
  "scale-info",
- "sp-api 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-core 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-runtime 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-staking 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-std 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
-]
-
-[[package]]
-name = "sp-session"
-version = "4.0.0-dev"
-source = "git+https://github.com/cennznet/substrate#2db18f864ae2bb50e60e497b7ac2c521daf83af6"
-dependencies = [
- "parity-scale-codec",
- "scale-info",
- "sp-api 4.0.0-dev (git+https://github.com/cennznet/substrate)",
- "sp-core 4.0.0-dev (git+https://github.com/cennznet/substrate)",
- "sp-runtime 4.0.0-dev (git+https://github.com/cennznet/substrate)",
- "sp-staking 4.0.0-dev (git+https://github.com/cennznet/substrate)",
- "sp-std 4.0.0-dev (git+https://github.com/cennznet/substrate)",
+ "sp-api",
+ "sp-core",
+ "sp-runtime",
+ "sp-staking",
+ "sp-std",
 ]
 
 [[package]]
@@ -8393,19 +7413,8 @@ source = "git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b
 dependencies = [
  "parity-scale-codec",
  "scale-info",
- "sp-runtime 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-std 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
-]
-
-[[package]]
-name = "sp-staking"
-version = "4.0.0-dev"
-source = "git+https://github.com/cennznet/substrate#2db18f864ae2bb50e60e497b7ac2c521daf83af6"
-dependencies = [
- "parity-scale-codec",
- "scale-info",
- "sp-runtime 4.0.0-dev (git+https://github.com/cennznet/substrate)",
- "sp-std 4.0.0-dev (git+https://github.com/cennznet/substrate)",
+ "sp-runtime",
+ "sp-std",
 ]
 
 [[package]]
@@ -8420,34 +7429,11 @@ dependencies = [
  "parking_lot",
  "rand 0.7.3",
  "smallvec",
- "sp-core 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-externalities 0.10.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-panic-handler 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-std 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-trie 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "thiserror",
- "tracing",
- "trie-db",
- "trie-root",
-]
-
-[[package]]
-name = "sp-state-machine"
-version = "0.10.0-dev"
-source = "git+https://github.com/cennznet/substrate#2db18f864ae2bb50e60e497b7ac2c521daf83af6"
-dependencies = [
- "hash-db",
- "log",
- "num-traits",
- "parity-scale-codec",
- "parking_lot",
- "rand 0.7.3",
- "smallvec",
- "sp-core 4.0.0-dev (git+https://github.com/cennznet/substrate)",
- "sp-externalities 0.10.0-dev (git+https://github.com/cennznet/substrate)",
- "sp-panic-handler 4.0.0-dev (git+https://github.com/cennznet/substrate)",
- "sp-std 4.0.0-dev (git+https://github.com/cennznet/substrate)",
- "sp-trie 4.0.0-dev (git+https://github.com/cennznet/substrate)",
+ "sp-core",
+ "sp-externalities",
+ "sp-panic-handler",
+ "sp-std",
+ "sp-trie",
  "thiserror",
  "tracing",
  "trie-db",
@@ -8460,11 +7446,6 @@ version = "4.0.0-dev"
 source = "git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6#2db18f864ae2bb50e60e497b7ac2c521daf83af6"
 
 [[package]]
-name = "sp-std"
-version = "4.0.0-dev"
-source = "git+https://github.com/cennznet/substrate#2db18f864ae2bb50e60e497b7ac2c521daf83af6"
-
-[[package]]
 name = "sp-storage"
 version = "4.0.0-dev"
 source = "git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6#2db18f864ae2bb50e60e497b7ac2c521daf83af6"
@@ -8473,21 +7454,8 @@ dependencies = [
  "parity-scale-codec",
  "ref-cast",
  "serde",
- "sp-debug-derive 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-std 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
-]
-
-[[package]]
-name = "sp-storage"
-version = "4.0.0-dev"
-source = "git+https://github.com/cennznet/substrate#2db18f864ae2bb50e60e497b7ac2c521daf83af6"
-dependencies = [
- "impl-serde",
- "parity-scale-codec",
- "ref-cast",
- "serde",
- "sp-debug-derive 4.0.0-dev (git+https://github.com/cennznet/substrate)",
- "sp-std 4.0.0-dev (git+https://github.com/cennznet/substrate)",
+ "sp-debug-derive",
+ "sp-std",
 ]
 
 [[package]]
@@ -8496,24 +7464,11 @@ version = "4.0.0-dev"
 source = "git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6#2db18f864ae2bb50e60e497b7ac2c521daf83af6"
 dependencies = [
  "log",
- "sp-core 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-externalities 0.10.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-io 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-runtime-interface 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-std 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
-]
-
-[[package]]
-name = "sp-tasks"
-version = "4.0.0-dev"
-source = "git+https://github.com/cennznet/substrate#2db18f864ae2bb50e60e497b7ac2c521daf83af6"
-dependencies = [
- "log",
- "sp-core 4.0.0-dev (git+https://github.com/cennznet/substrate)",
- "sp-externalities 0.10.0-dev (git+https://github.com/cennznet/substrate)",
- "sp-io 4.0.0-dev (git+https://github.com/cennznet/substrate)",
- "sp-runtime-interface 4.0.0-dev (git+https://github.com/cennznet/substrate)",
- "sp-std 4.0.0-dev (git+https://github.com/cennznet/substrate)",
+ "sp-core",
+ "sp-externalities",
+ "sp-io",
+ "sp-runtime-interface",
+ "sp-std",
 ]
 
 [[package]]
@@ -8525,10 +7480,10 @@ dependencies = [
  "futures-timer 3.0.2",
  "log",
  "parity-scale-codec",
- "sp-api 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-inherents 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-runtime 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-std 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
+ "sp-api",
+ "sp-inherents",
+ "sp-runtime",
+ "sp-std",
  "thiserror",
 ]
 
@@ -8538,19 +7493,7 @@ version = "4.0.0-dev"
 source = "git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6#2db18f864ae2bb50e60e497b7ac2c521daf83af6"
 dependencies = [
  "parity-scale-codec",
- "sp-std 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "tracing",
- "tracing-core",
- "tracing-subscriber",
-]
-
-[[package]]
-name = "sp-tracing"
-version = "4.0.0-dev"
-source = "git+https://github.com/cennznet/substrate#2db18f864ae2bb50e60e497b7ac2c521daf83af6"
-dependencies = [
- "parity-scale-codec",
- "sp-std 4.0.0-dev (git+https://github.com/cennznet/substrate)",
+ "sp-std",
  "tracing",
  "tracing-core",
  "tracing-subscriber",
@@ -8561,17 +7504,8 @@ name = "sp-transaction-pool"
 version = "4.0.0-dev"
 source = "git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6#2db18f864ae2bb50e60e497b7ac2c521daf83af6"
 dependencies = [
- "sp-api 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-runtime 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
-]
-
-[[package]]
-name = "sp-transaction-pool"
-version = "4.0.0-dev"
-source = "git+https://github.com/cennznet/substrate#2db18f864ae2bb50e60e497b7ac2c521daf83af6"
-dependencies = [
- "sp-api 4.0.0-dev (git+https://github.com/cennznet/substrate)",
- "sp-runtime 4.0.0-dev (git+https://github.com/cennznet/substrate)",
+ "sp-api",
+ "sp-runtime",
 ]
 
 [[package]]
@@ -8583,27 +7517,11 @@ dependencies = [
  "log",
  "parity-scale-codec",
  "scale-info",
- "sp-core 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-inherents 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-runtime 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-std 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-trie 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
-]
-
-[[package]]
-name = "sp-transaction-storage-proof"
-version = "4.0.0-dev"
-source = "git+https://github.com/cennznet/substrate#2db18f864ae2bb50e60e497b7ac2c521daf83af6"
-dependencies = [
- "async-trait",
- "log",
- "parity-scale-codec",
- "scale-info",
- "sp-core 4.0.0-dev (git+https://github.com/cennznet/substrate)",
- "sp-inherents 4.0.0-dev (git+https://github.com/cennznet/substrate)",
- "sp-runtime 4.0.0-dev (git+https://github.com/cennznet/substrate)",
- "sp-std 4.0.0-dev (git+https://github.com/cennznet/substrate)",
- "sp-trie 4.0.0-dev (git+https://github.com/cennznet/substrate)",
+ "sp-core",
+ "sp-inherents",
+ "sp-runtime",
+ "sp-std",
+ "sp-trie",
 ]
 
 [[package]]
@@ -8615,23 +7533,8 @@ dependencies = [
  "memory-db",
  "parity-scale-codec",
  "scale-info",
- "sp-core 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-std 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "trie-db",
- "trie-root",
-]
-
-[[package]]
-name = "sp-trie"
-version = "4.0.0-dev"
-source = "git+https://github.com/cennznet/substrate#2db18f864ae2bb50e60e497b7ac2c521daf83af6"
-dependencies = [
- "hash-db",
- "memory-db",
- "parity-scale-codec",
- "scale-info",
- "sp-core 4.0.0-dev (git+https://github.com/cennznet/substrate)",
- "sp-std 4.0.0-dev (git+https://github.com/cennznet/substrate)",
+ "sp-core",
+ "sp-std",
  "trie-db",
  "trie-root",
 ]
@@ -8646,25 +7549,9 @@ dependencies = [
  "parity-wasm 0.42.2",
  "scale-info",
  "serde",
- "sp-runtime 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-std 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-version-proc-macro 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "thiserror",
-]
-
-[[package]]
-name = "sp-version"
-version = "4.0.0-dev"
-source = "git+https://github.com/cennznet/substrate#2db18f864ae2bb50e60e497b7ac2c521daf83af6"
-dependencies = [
- "impl-serde",
- "parity-scale-codec",
- "parity-wasm 0.42.2",
- "scale-info",
- "serde",
- "sp-runtime 4.0.0-dev (git+https://github.com/cennznet/substrate)",
- "sp-std 4.0.0-dev (git+https://github.com/cennznet/substrate)",
- "sp-version-proc-macro 4.0.0-dev (git+https://github.com/cennznet/substrate)",
+ "sp-runtime",
+ "sp-std",
+ "sp-version-proc-macro",
  "thiserror",
 ]
 
@@ -8680,35 +7567,13 @@ dependencies = [
 ]
 
 [[package]]
-name = "sp-version-proc-macro"
-version = "4.0.0-dev"
-source = "git+https://github.com/cennznet/substrate#2db18f864ae2bb50e60e497b7ac2c521daf83af6"
-dependencies = [
- "parity-scale-codec",
- "proc-macro2",
- "quote",
- "syn",
-]
-
-[[package]]
 name = "sp-wasm-interface"
 version = "4.0.0-dev"
 source = "git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6#2db18f864ae2bb50e60e497b7ac2c521daf83af6"
 dependencies = [
  "impl-trait-for-tuples",
  "parity-scale-codec",
- "sp-std 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "wasmi",
-]
-
-[[package]]
-name = "sp-wasm-interface"
-version = "4.0.0-dev"
-source = "git+https://github.com/cennznet/substrate#2db18f864ae2bb50e60e497b7ac2c521daf83af6"
-dependencies = [
- "impl-trait-for-tuples",
- "parity-scale-codec",
- "sp-std 4.0.0-dev (git+https://github.com/cennznet/substrate)",
+ "sp-std",
  "wasmi",
 ]
 
@@ -8854,34 +7719,20 @@ dependencies = [
  "jsonrpc-derive",
  "log",
  "parity-scale-codec",
- "sc-client-api 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sc-rpc-api 0.10.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sc-transaction-pool-api 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-api 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-block-builder 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-blockchain 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-core 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
- "sp-runtime 4.0.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
+ "sc-client-api",
+ "sc-rpc-api",
+ "sc-transaction-pool-api",
+ "sp-api",
+ "sp-block-builder",
+ "sp-blockchain",
+ "sp-core",
+ "sp-runtime",
 ]
 
 [[package]]
 name = "substrate-prometheus-endpoint"
 version = "0.10.0-dev"
 source = "git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6#2db18f864ae2bb50e60e497b7ac2c521daf83af6"
-dependencies = [
- "async-std",
- "derive_more",
- "futures-util",
- "hyper",
- "log",
- "prometheus",
- "tokio",
-]
-
-[[package]]
-name = "substrate-prometheus-endpoint"
-version = "0.10.0-dev"
-source = "git+https://github.com/cennznet/substrate#2db18f864ae2bb50e60e497b7ac2c521daf83af6"
 dependencies = [
  "async-std",
  "derive_more",
@@ -8900,7 +7751,7 @@ dependencies = [
  "ansi_term 0.12.1",
  "build-helper",
  "cargo_metadata",
- "sp-maybe-compressed-blob 4.1.0-dev (git+https://github.com/cennznet/substrate?rev=2db18f864ae2bb50e60e497b7ac2c521daf83af6)",
+ "sp-maybe-compressed-blob",
  "tempfile",
  "toml",
  "walkdir",
