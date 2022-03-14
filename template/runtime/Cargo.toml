@@ -15,10 +15,10 @@ targets = ["x86_64-unknown-linux-gnu"]
 codec = { package = "parity-scale-codec", version = "2.0.0", default-features = false, features = ["derive"] }
 serde = { version = "1.0.101", optional = true, features = ["derive"] }
 
-frame-executive = { default-features = false, git = "https://github.com/cennznet/substrate", rev = "2db18f864ae2bb50e60e497b7ac2c521daf83af6" }
-frame-support = { default-features = false, git = "https://github.com/cennznet/substrate", rev = "2db18f864ae2bb50e60e497b7ac2c521daf83af6" }
-frame-system = { default-features = false, package = "frame-system", git = "https://github.com/cennznet/substrate", rev = "2db18f864ae2bb50e60e497b7ac2c521daf83af6" }
-frame-system-rpc-runtime-api = { default-features = false, git = "https://github.com/cennznet/substrate", rev = "2db18f864ae2bb50e60e497b7ac2c521daf83af6" }
+frame-executive = { default-features = false, git = "https://github.com/cennznet/substrate", rev = "ec4c632f00178131f8891d564bd9ae9742a7ec1c" }
+frame-support = { default-features = false, git = "https://github.com/cennznet/substrate", rev = "ec4c632f00178131f8891d564bd9ae9742a7ec1c" }
+frame-system = { default-features = false, package = "frame-system", git = "https://github.com/cennznet/substrate", rev = "ec4c632f00178131f8891d564bd9ae9742a7ec1c" }
+frame-system-rpc-runtime-api = { default-features = false, git = "https://github.com/cennznet/substrate", rev = "ec4c632f00178131f8891d564bd9ae9742a7ec1c" }
 
 pallet-ethereum = { default-features = false, path = "../../frame/ethereum" }
 pallet-evm = { default-features = false, path = "../../frame/evm" }
@@ -26,28 +26,28 @@ pallet-dynamic-fee = { default-features = false, path = "../../frame/dynamic-fee
 pallet-evm-precompile-simple = { default-features = false, path = "../../frame/evm/precompile/simple" }
 pallet-evm-precompile-sha3fips = { default-features = false, path = "../../frame/evm/precompile/sha3fips" }
 pallet-evm-precompile-modexp = { default-features = false, path = "../../frame/evm/precompile/modexp" }
-pallet-aura = { default-features = false, git = "https://github.com/cennznet/substrate", rev = "2db18f864ae2bb50e60e497b7ac2c521daf83af6" }
-pallet-balances = { default-features = false, git = "https://github.com/cennznet/substrate", rev = "2db18f864ae2bb50e60e497b7ac2c521daf83af6" }
-pallet-grandpa = { default-features = false, git = "https://github.com/cennznet/substrate", rev = "2db18f864ae2bb50e60e497b7ac2c521daf83af6" }
-pallet-randomness-collective-flip = { default-features = false, git = "https://github.com/cennznet/substrate", rev = "2db18f864ae2bb50e60e497b7ac2c521daf83af6" }
-pallet-sudo = { default-features = false, git = "https://github.com/cennznet/substrate", rev = "2db18f864ae2bb50e60e497b7ac2c521daf83af6" }
-pallet-timestamp = { default-features = false, git = "https://github.com/cennznet/substrate", rev = "2db18f864ae2bb50e60e497b7ac2c521daf83af6" }
-pallet-transaction-payment = { default-features = false, git = "https://github.com/cennznet/substrate", rev = "2db18f864ae2bb50e60e497b7ac2c521daf83af6" }
-pallet-transaction-payment-rpc-runtime-api = { default-features = false, git = "https://github.com/cennznet/substrate", rev = "2db18f864ae2bb50e60e497b7ac2c521daf83af6" }
+pallet-aura = { default-features = false, git = "https://github.com/cennznet/substrate", rev = "ec4c632f00178131f8891d564bd9ae9742a7ec1c" }
+pallet-balances = { default-features = false, git = "https://github.com/cennznet/substrate", rev = "ec4c632f00178131f8891d564bd9ae9742a7ec1c" }
+pallet-grandpa = { default-features = false, git = "https://github.com/cennznet/substrate", rev = "ec4c632f00178131f8891d564bd9ae9742a7ec1c" }
+pallet-randomness-collective-flip = { default-features = false, git = "https://github.com/cennznet/substrate", rev = "ec4c632f00178131f8891d564bd9ae9742a7ec1c" }
+pallet-sudo = { default-features = false, git = "https://github.com/cennznet/substrate", rev = "ec4c632f00178131f8891d564bd9ae9742a7ec1c" }
+pallet-timestamp = { default-features = false, git = "https://github.com/cennznet/substrate", rev = "ec4c632f00178131f8891d564bd9ae9742a7ec1c" }
+pallet-transaction-payment = { default-features = false, git = "https://github.com/cennznet/substrate", rev = "ec4c632f00178131f8891d564bd9ae9742a7ec1c" }
+pallet-transaction-payment-rpc-runtime-api = { default-features = false, git = "https://github.com/cennznet/substrate", rev = "ec4c632f00178131f8891d564bd9ae9742a7ec1c" }
 pallet-base-fee = { default-features = false, path = "../../frame/base-fee" }
 
-sp-api = { default-features = false, git = "https://github.com/cennznet/substrate", rev = "2db18f864ae2bb50e60e497b7ac2c521daf83af6" }
-sp-block-builder = { default-features = false, git = "https://github.com/cennznet/substrate", rev = "2db18f864ae2bb50e60e497b7ac2c521daf83af6"}
-sp-consensus-aura = { default-features = false, git = "https://github.com/cennznet/substrate", rev = "2db18f864ae2bb50e60e497b7ac2c521daf83af6" }
-sp-core = { default-features = false, git = "https://github.com/cennznet/substrate", rev = "2db18f864ae2bb50e60e497b7ac2c521daf83af6" }
-sp-inherents = { default-features = false, git = "https://github.com/cennznet/substrate", rev = "2db18f864ae2bb50e60e497b7ac2c521daf83af6"}
-sp-io = { default-features = false, git = "https://github.com/cennznet/substrate", rev = "2db18f864ae2bb50e60e497b7ac2c521daf83af6" }
-sp-offchain = { default-features = false, git = "https://github.com/cennznet/substrate", rev = "2db18f864ae2bb50e60e497b7ac2c521daf83af6" }
-sp-runtime = { default-features = false, git = "https://github.com/cennznet/substrate", rev = "2db18f864ae2bb50e60e497b7ac2c521daf83af6" }
-sp-session = { default-features = false, git = "https://github.com/cennznet/substrate", rev = "2db18f864ae2bb50e60e497b7ac2c521daf83af6" }
-sp-std = { default-features = false, git = "https://github.com/cennznet/substrate", rev = "2db18f864ae2bb50e60e497b7ac2c521daf83af6" }
-sp-transaction-pool = { default-features = false, git = "https://github.com/cennznet/substrate", rev = "2db18f864ae2bb50e60e497b7ac2c521daf83af6" }
-sp-version = { default-features = false, git = "https://github.com/cennznet/substrate", rev = "2db18f864ae2bb50e60e497b7ac2c521daf83af6" }
+sp-api = { default-features = false, git = "https://github.com/cennznet/substrate", rev = "ec4c632f00178131f8891d564bd9ae9742a7ec1c" }
+sp-block-builder = { default-features = false, git = "https://github.com/cennznet/substrate", rev = "ec4c632f00178131f8891d564bd9ae9742a7ec1c"}
+sp-consensus-aura = { default-features = false, git = "https://github.com/cennznet/substrate", rev = "ec4c632f00178131f8891d564bd9ae9742a7ec1c" }
+sp-core = { default-features = false, git = "https://github.com/cennznet/substrate", rev = "ec4c632f00178131f8891d564bd9ae9742a7ec1c" }
+sp-inherents = { default-features = false, git = "https://github.com/cennznet/substrate", rev = "ec4c632f00178131f8891d564bd9ae9742a7ec1c"}
+sp-io = { default-features = false, git = "https://github.com/cennznet/substrate", rev = "ec4c632f00178131f8891d564bd9ae9742a7ec1c" }
+sp-offchain = { default-features = false, git = "https://github.com/cennznet/substrate", rev = "ec4c632f00178131f8891d564bd9ae9742a7ec1c" }
+sp-runtime = { default-features = false, git = "https://github.com/cennznet/substrate", rev = "ec4c632f00178131f8891d564bd9ae9742a7ec1c" }
+sp-session = { default-features = false, git = "https://github.com/cennznet/substrate", rev = "ec4c632f00178131f8891d564bd9ae9742a7ec1c" }
+sp-std = { default-features = false, git = "https://github.com/cennznet/substrate", rev = "ec4c632f00178131f8891d564bd9ae9742a7ec1c" }
+sp-transaction-pool = { default-features = false, git = "https://github.com/cennznet/substrate", rev = "ec4c632f00178131f8891d564bd9ae9742a7ec1c" }
+sp-version = { default-features = false, git = "https://github.com/cennznet/substrate", rev = "ec4c632f00178131f8891d564bd9ae9742a7ec1c" }
 
 fp-rpc = { default-features = false, path = "../../primitives/rpc" }
 fp-self-contained = { default-features = false, path = "../../primitives/self-contained" }
@@ -55,11 +55,11 @@ fp-self-contained = { default-features = false, path = "../../primitives/self-co
 scale-info = { version = "1.0.0", default-features = false, features = ["derive"] }
 
 # benchmarking dependencies
-frame-benchmarking = { git = "https://github.com/cennznet/substrate", rev = "2db18f864ae2bb50e60e497b7ac2c521daf83af6", default-features = false, optional = true }
-frame-system-benchmarking = { git = "https://github.com/cennznet/substrate", rev = "2db18f864ae2bb50e60e497b7ac2c521daf83af6", default-features = false, optional = true }
+frame-benchmarking = { git = "https://github.com/cennznet/substrate", rev = "ec4c632f00178131f8891d564bd9ae9742a7ec1c", default-features = false, optional = true }
+frame-system-benchmarking = { git = "https://github.com/cennznet/substrate", rev = "ec4c632f00178131f8891d564bd9ae9742a7ec1c", default-features = false, optional = true }
 
 [build-dependencies]
-substrate-wasm-builder = { git = "https://github.com/cennznet/substrate", rev = "2db18f864ae2bb50e60e497b7ac2c521daf83af6" }
+substrate-wasm-builder = { git = "https://github.com/cennznet/substrate", rev = "ec4c632f00178131f8891d564bd9ae9742a7ec1c" }
 
 [features]
 default = ["std", "aura"]

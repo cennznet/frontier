@@ -7,15 +7,15 @@ description = "Runtime primitives for Ethereum RPC (web3) compatibility layer fo
 license = "Apache-2.0"
 
 [dependencies]
-sp-core = { rev = "2db18f864ae2bb50e60e497b7ac2c521daf83af6", default-features = false, git = "https://github.com/cennznet/substrate" }
-sp-api = { rev = "2db18f864ae2bb50e60e497b7ac2c521daf83af6", default-features = false, git = "https://github.com/cennznet/substrate" }
+sp-core = { rev = "ec4c632f00178131f8891d564bd9ae9742a7ec1c", default-features = false, git = "https://github.com/cennznet/substrate" }
+sp-api = { rev = "ec4c632f00178131f8891d564bd9ae9742a7ec1c", default-features = false, git = "https://github.com/cennznet/substrate" }
 fp-evm = { version = "3.0.0-dev", default-features = false, path = "../../primitives/evm" }
 ethereum = { version = "0.11.1", default-features = false, features = ["with-codec"] }
 ethereum-types = { version = "0.12", default-features = false }
 codec = { package = "parity-scale-codec", version = "2.0.0", default-features = false }
-sp-runtime = { rev = "2db18f864ae2bb50e60e497b7ac2c521daf83af6", default-features = false, git = "https://github.com/cennznet/substrate" }
-sp-std = { rev = "2db18f864ae2bb50e60e497b7ac2c521daf83af6", default-features = false, git = "https://github.com/cennznet/substrate" }
-sp-io = { rev = "2db18f864ae2bb50e60e497b7ac2c521daf83af6", default-features = false, git = "https://github.com/cennznet/substrate" }
+sp-runtime = { rev = "ec4c632f00178131f8891d564bd9ae9742a7ec1c", default-features = false, git = "https://github.com/cennznet/substrate" }
+sp-std = { rev = "ec4c632f00178131f8891d564bd9ae9742a7ec1c", default-features = false, git = "https://github.com/cennznet/substrate" }
+sp-io = { rev = "ec4c632f00178131f8891d564bd9ae9742a7ec1c", default-features = false, git = "https://github.com/cennznet/substrate" }
 scale-info = { version = "1.0.0", default-features = false, features = ["derive"] }
 
 [features]

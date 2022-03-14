@@ -9,21 +9,21 @@ repository = "https://github.com/paritytech/frontier/"
 
 [dependencies]
 codec = { package = "parity-scale-codec", version = "2.0.0", features = ["derive"] }
-sp-core = { rev = "2db18f864ae2bb50e60e497b7ac2c521daf83af6", git = "https://github.com/cennznet/substrate" }
-sp-blockchain = { rev = "2db18f864ae2bb50e60e497b7ac2c521daf83af6", git = "https://github.com/cennznet/substrate" }
-sp-runtime = { rev = "2db18f864ae2bb50e60e497b7ac2c521daf83af6", git = "https://github.com/cennznet/substrate" }
-sp-api = { rev = "2db18f864ae2bb50e60e497b7ac2c521daf83af6", git = "https://github.com/cennznet/substrate" }
-sc-client-api = { rev = "2db18f864ae2bb50e60e497b7ac2c521daf83af6", git = "https://github.com/cennznet/substrate" }
-sp-block-builder = { rev = "2db18f864ae2bb50e60e497b7ac2c521daf83af6", git = "https://github.com/cennznet/substrate" }
-sp-inherents = { rev = "2db18f864ae2bb50e60e497b7ac2c521daf83af6", git = "https://github.com/cennznet/substrate" }
+sp-core = { rev = "ec4c632f00178131f8891d564bd9ae9742a7ec1c", git = "https://github.com/cennznet/substrate" }
+sp-blockchain = { rev = "ec4c632f00178131f8891d564bd9ae9742a7ec1c", git = "https://github.com/cennznet/substrate" }
+sp-runtime = { rev = "ec4c632f00178131f8891d564bd9ae9742a7ec1c", git = "https://github.com/cennznet/substrate" }
+sp-api = { rev = "ec4c632f00178131f8891d564bd9ae9742a7ec1c", git = "https://github.com/cennznet/substrate" }
+sc-client-api = { rev = "ec4c632f00178131f8891d564bd9ae9742a7ec1c", git = "https://github.com/cennznet/substrate" }
+sp-block-builder = { rev = "ec4c632f00178131f8891d564bd9ae9742a7ec1c", git = "https://github.com/cennznet/substrate" }
+sp-inherents = { rev = "ec4c632f00178131f8891d564bd9ae9742a7ec1c", git = "https://github.com/cennznet/substrate" }
 fp-consensus = { version = "2.0.0-dev", path = "../../primitives/consensus" }
 fp-rpc = { version = "3.0.0-dev", path = "../../primitives/rpc" }
 fc-db = { version = "2.0.0-dev", path = "../db" }
-sp-consensus = { rev = "2db18f864ae2bb50e60e497b7ac2c521daf83af6", version = "0.10.0-dev", git = "https://github.com/cennznet/substrate" }
-sc-consensus = { rev = "2db18f864ae2bb50e60e497b7ac2c521daf83af6", version = "0.10.0-dev", git = "https://github.com/cennznet/substrate" }
+sp-consensus = { rev = "ec4c632f00178131f8891d564bd9ae9742a7ec1c", version = "0.10.0-dev", git = "https://github.com/cennznet/substrate" }
+sc-consensus = { rev = "ec4c632f00178131f8891d564bd9ae9742a7ec1c", version = "0.10.0-dev", git = "https://github.com/cennznet/substrate" }
 log = "0.4.8"
 futures = { version = "0.3.17", features = ["compat"] }
-sp-timestamp = { rev = "2db18f864ae2bb50e60e497b7ac2c521daf83af6", git = "https://github.com/cennznet/substrate" }
+sp-timestamp = { rev = "ec4c632f00178131f8891d564bd9ae9742a7ec1c", git = "https://github.com/cennznet/substrate" }
 derive_more = "0.99.2"
-prometheus-endpoint = { rev = "2db18f864ae2bb50e60e497b7ac2c521daf83af6", version = "0.10.0-dev", package = "substrate-prometheus-endpoint", git = "https://github.com/cennznet/substrate" }
+prometheus-endpoint = { rev = "ec4c632f00178131f8891d564bd9ae9742a7ec1c", version = "0.10.0-dev", package = "substrate-prometheus-endpoint", git = "https://github.com/cennznet/substrate" }
 async-trait = "0.1"
