@@ -11,14 +11,14 @@ resolver = "2"
 rustc-hex = { version = "2.1.0", default-features = false }
 serde = { version = "1.0.101", optional = true }
 codec = { package = "parity-scale-codec", version = "2.0.0", default-features = false }
-frame-support = { rev = "ec4c632f00178131f8891d564bd9ae9742a7ec1c", default-features = false, git = "https://github.com/cennznet/substrate" }
-frame-system = { rev = "ec4c632f00178131f8891d564bd9ae9742a7ec1c", default-features = false, git = "https://github.com/cennznet/substrate" }
-pallet-balances = { rev = "ec4c632f00178131f8891d564bd9ae9742a7ec1c", default-features = false, git = "https://github.com/cennznet/substrate" }
-pallet-timestamp = { rev = "ec4c632f00178131f8891d564bd9ae9742a7ec1c", default-features = false, git = "https://github.com/cennznet/substrate" }
+frame-support = { rev = "92f06d413796bb1443b31d92bde637c90742a077", default-features = false, git = "https://github.com/cennznet/substrate" }
+frame-system = { rev = "92f06d413796bb1443b31d92bde637c90742a077", default-features = false, git = "https://github.com/cennznet/substrate" }
+pallet-balances = { rev = "92f06d413796bb1443b31d92bde637c90742a077", default-features = false, git = "https://github.com/cennznet/substrate" }
+pallet-timestamp = { rev = "92f06d413796bb1443b31d92bde637c90742a077", default-features = false, git = "https://github.com/cennznet/substrate" }
 pallet-evm = { version = "6.0.0-dev", default-features = false, path = "../evm" }
-sp-runtime = { rev = "ec4c632f00178131f8891d564bd9ae9742a7ec1c", default-features = false, git = "https://github.com/cennznet/substrate" }
-sp-std = { rev = "ec4c632f00178131f8891d564bd9ae9742a7ec1c", default-features = false, git = "https://github.com/cennznet/substrate" }
-sp-io = { rev = "ec4c632f00178131f8891d564bd9ae9742a7ec1c", default-features = false, git = "https://github.com/cennznet/substrate" }
+sp-runtime = { rev = "92f06d413796bb1443b31d92bde637c90742a077", default-features = false, git = "https://github.com/cennznet/substrate" }
+sp-std = { rev = "92f06d413796bb1443b31d92bde637c90742a077", default-features = false, git = "https://github.com/cennznet/substrate" }
+sp-io = { rev = "92f06d413796bb1443b31d92bde637c90742a077", default-features = false, git = "https://github.com/cennznet/substrate" }
 fp-evm = { version = "3.0.0-dev", default-features = false, path = "../../primitives/evm" }
 evm = { git = "https://github.com/rust-blockchain/evm", rev = "52d5fe5d1fd665a495ea34cc67c5f0c6bc6dd23e", features = ["with-codec"], default-features = false }
 ethereum = { version = "0.11.1", default-features = false, features = ["with-codec"] }
@@ -32,7 +32,7 @@ fp-self-contained = { version = "1.0.0-dev", path = "../../primitives/self-conta
 scale-info = { version = "1.0.0", default-features = false, features = ["derive"] }
 
 [dev-dependencies]
-sp-core = { rev = "ec4c632f00178131f8891d564bd9ae9742a7ec1c", git = "https://github.com/cennznet/substrate" }
+sp-core = { rev = "92f06d413796bb1443b31d92bde637c90742a077", git = "https://github.com/cennznet/substrate" }
 libsecp256k1 = { version = "0.5", features = ["static-context", "hmac"] }
 
 [features]

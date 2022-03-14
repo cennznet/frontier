@@ -9,8 +9,8 @@ repository = "https://github.com/paritytech/frontier/"
 description = "MODEXP precompiles for EVM pallet."
 
 [dependencies]
-sp-core = { rev = "ec4c632f00178131f8891d564bd9ae9742a7ec1c", default-features = false, git = "https://github.com/cennznet/substrate" }
-sp-io = { rev = "ec4c632f00178131f8891d564bd9ae9742a7ec1c", default-features = false, git = "https://github.com/cennznet/substrate" }
+sp-core = { rev = "92f06d413796bb1443b31d92bde637c90742a077", default-features = false, git = "https://github.com/cennznet/substrate" }
+sp-io = { rev = "92f06d413796bb1443b31d92bde637c90742a077", default-features = false, git = "https://github.com/cennznet/substrate" }
 fp-evm = { version = "3.0.0-dev", default-features = false, path = "../../../../primitives/evm" }
 num = { version = "0.4", features = ["alloc"], default-features = false }
 

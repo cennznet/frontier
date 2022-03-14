@@ -20,6 +20,7 @@ mod worker;
 
 pub use worker::{MappingSyncWorker, SyncStrategy};
 
+use log::{debug, warn};
 use fp_consensus::FindLogError;
 use fp_rpc::EthereumRuntimeRPCApi;
 use sc_client_api::BlockOf;
@@ -132,6 +133,7 @@ where
 	let operating_tip = match operating_tip {
 		Some(operating_tip) => operating_tip,
 		None => {
+		debug!(target: "mapping-sync", "already synced tip");
 			frontier_backend
 				.meta()
 				.write_current_syncing_tips(current_syncing_tips)?;
@@ -145,6 +147,7 @@ where
 		.ok_or("Header not found".to_string())?;
 
 	if operating_header.number() == &Zero::zero() {
+		warn!(target: "mapping-sync", "sync from 0");
 		sync_genesis_block(client, frontier_backend, &operating_header)?;
 
 		frontier_backend
@@ -157,6 +160,7 @@ where
 		{
 			return Ok(false);
 		}
+		debug!(target: "mapping-sync", "sync block. number:{:?}, hash:{:?}", operating_header.number(), operating_header.hash());
 		sync_block(frontier_backend, &operating_header)?;
 
 		current_syncing_tips.push(*operating_header.parent_hash());

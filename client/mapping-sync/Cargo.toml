@@ -7,10 +7,10 @@ description = "Mapping sync logic for Frontier."
 license = "GPL-3.0-or-later WITH Classpath-exception-2.0"
 
 [dependencies]
-sp-runtime = { rev = "ec4c632f00178131f8891d564bd9ae9742a7ec1c", git = "https://github.com/cennznet/substrate" }
-sp-blockchain = { rev = "ec4c632f00178131f8891d564bd9ae9742a7ec1c", git = "https://github.com/cennznet/substrate" }
-sc-client-api = { rev = "ec4c632f00178131f8891d564bd9ae9742a7ec1c", git = "https://github.com/cennznet/substrate" }
-sp-api = { rev = "ec4c632f00178131f8891d564bd9ae9742a7ec1c", git = "https://github.com/cennznet/substrate" }
+sp-runtime = { rev = "92f06d413796bb1443b31d92bde637c90742a077", git = "https://github.com/cennznet/substrate" }
+sp-blockchain = { rev = "92f06d413796bb1443b31d92bde637c90742a077", git = "https://github.com/cennznet/substrate" }
+sc-client-api = { rev = "92f06d413796bb1443b31d92bde637c90742a077", git = "https://github.com/cennznet/substrate" }
+sp-api = { rev = "92f06d413796bb1443b31d92bde637c90742a077", git = "https://github.com/cennznet/substrate" }
 fp-consensus = { version = "2.0.0-dev", path = "../../primitives/consensus" }
 fc-consensus = { version = "2.0.0-dev", path = "../consensus" }
 fc-db = { version = "2.0.0-dev", path = "../db" }

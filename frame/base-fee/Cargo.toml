@@ -14,15 +14,15 @@ targets = ["x86_64-unknown-linux-gnu"]
 [dependencies]
 serde = { version = "1.0.101", optional = true }
 codec = { package = "parity-scale-codec", version = "2.0.0", default-features = false }
-frame-support = { rev = "ec4c632f00178131f8891d564bd9ae9742a7ec1c", default-features = false, git = "https://github.com/cennznet/substrate" }
-frame-system = { rev = "ec4c632f00178131f8891d564bd9ae9742a7ec1c", default-features = false, git = "https://github.com/cennznet/substrate" }
-sp-core = { rev = "ec4c632f00178131f8891d564bd9ae9742a7ec1c", default-features = false, git = "https://github.com/cennznet/substrate" }
-sp-runtime = { rev = "ec4c632f00178131f8891d564bd9ae9742a7ec1c", default-features = false, git = "https://github.com/cennznet/substrate" }
+frame-support = { rev = "92f06d413796bb1443b31d92bde637c90742a077", default-features = false, git = "https://github.com/cennznet/substrate" }
+frame-system = { rev = "92f06d413796bb1443b31d92bde637c90742a077", default-features = false, git = "https://github.com/cennznet/substrate" }
+sp-core = { rev = "92f06d413796bb1443b31d92bde637c90742a077", default-features = false, git = "https://github.com/cennznet/substrate" }
+sp-runtime = { rev = "92f06d413796bb1443b31d92bde637c90742a077", default-features = false, git = "https://github.com/cennznet/substrate" }
 pallet-evm = { path = "../evm", default-features = false }
 scale-info = { version = "1.0.0", default-features = false, features = ["derive"] }
 
 [dev-dependencies]
-sp-io = { rev = "ec4c632f00178131f8891d564bd9ae9742a7ec1c", default-features = false, git = "https://github.com/cennznet/substrate" }
+sp-io = { rev = "92f06d413796bb1443b31d92bde637c90742a077", default-features = false, git = "https://github.com/cennznet/substrate" }
 
 [features]
 default = ["std"]
