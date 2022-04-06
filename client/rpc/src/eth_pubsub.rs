@@ -16,8 +16,6 @@
 // You should have received a copy of the GNU General Public License
 // along with this program. If not, see <https://www.gnu.org/licenses/>.
 
-use std::{collections::BTreeMap, iter, marker::PhantomData, sync::Arc};
-
 use ethereum::{BlockV2 as EthereumBlock, TransactionV2 as EthereumTransaction};
 use ethereum_types::{H256, U256};
 use futures::{FutureExt as _, SinkExt as _, StreamExt as _};
@@ -41,8 +39,6 @@ use sp_blockchain::{Error as BlockChainError, HeaderBackend, HeaderMetadata};
 use sp_runtime::traits::{BlakeTwo256, Block as BlockT, UniqueSaturatedInto};
 use std::{collections::BTreeMap, iter, marker::PhantomData, sync::Arc};
 
-use ethereum::BlockV2 as EthereumBlock;
-use ethereum_types::{H256, U256};
 use fc_rpc_core::{
 	types::{
 		pubsub::{Kind, Params, PubSubSyncStatus, Result as PubSubResult},
@@ -50,18 +46,12 @@ use fc_rpc_core::{
 	},
 	EthPubSubApi::{self as EthPubSubApiT},
 };
-use jsonrpc_pubsub::{
-	manager::{IdProvider, SubscriptionManager},
-	typed::Subscriber,
-	SubscriptionId,
-};
 use sha3::{Digest, Keccak256};
 
 pub use fc_rpc_core::EthPubSubApiServer;
 use futures::{FutureExt as _, SinkExt as _, StreamExt as _};
 
 use fp_rpc::EthereumRuntimeRPCApi;
-use jsonrpc_core::Result as JsonRpcResult;
 
 use sc_network::{ExHashT, NetworkService};
 
