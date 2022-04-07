@@ -182,18 +182,21 @@ pub mod pallet {
 						Permill::from_parts((target.deconstruct() - usage.deconstruct()) * 2u32);
 					// How much of the Elasticity is used to mutate base fee.
 					let coef = <Elasticity<T>>::get() * coef;
-					<BaseFeePerGas<T>>::mutate(|bf| {
-						if let Some(scaled_basefee) = bf.checked_mul(U256::from(coef.deconstruct()))
-						{
-							// Normalize to GWEI.
-							let decrease = scaled_basefee
-								.checked_div(U256::from(1_000_000))
-								.unwrap_or(U256::zero());
-							*bf = max(bf.saturating_sub(U256::from(decrease)), T::DefaultBaseFeePerGas::get());
-						} else {
-							Self::deposit_event(Event::BaseFeeOverflow);
+					// Modified vs. upstream to prevent the BaseFeePerGas going below `T::DefaultBaseFeePerGas`
+					let bf = Self::base_fee_per_gas();
+					if let Some(scaled_basefee) = bf.checked_mul(U256::from(coef.deconstruct())) {
+						// Normalize to GWEI.
+						let decrease = scaled_basefee
+							.checked_div(U256::from(1_000_000))
+							.unwrap_or(U256::zero());
+						let new_bf = bf.saturating_sub(U256::from(decrease));
+						if new_bf == T::DefaultBaseFeePerGas::get() {
+							return;
 						}
-					});
+						<BaseFeePerGas<T>>::put(max(new_bf, T::DefaultBaseFeePerGas::get()));
+					} else {
+						Self::deposit_event(Event::BaseFeeOverflow);
+					}
 				}
 			}
 		}
