@@ -24,6 +24,7 @@ pub mod pallet {
 	use frame_system::pallet_prelude::*;
 	use sp_core::U256;
 	use sp_runtime::Permill;
+	use sp_std::cmp::max;
 
 	pub trait BaseFeeThreshold {
 		fn lower() -> Permill;
@@ -171,7 +172,6 @@ pub mod pallet {
 								.checked_div(U256::from(1_000_000))
 								.unwrap_or(U256::zero());
 							*bf = bf.saturating_add(U256::from(increase));
-							Self::deposit_event(Event::NewBaseFeePerGas(*bf));
 						} else {
 							Self::deposit_event(Event::BaseFeeOverflow);
 						}
@@ -182,19 +182,21 @@ pub mod pallet {
 						Permill::from_parts((target.deconstruct() - usage.deconstruct()) * 2u32);
 					// How much of the Elasticity is used to mutate base fee.
 					let coef = <Elasticity<T>>::get() * coef;
-					<BaseFeePerGas<T>>::mutate(|bf| {
-						if let Some(scaled_basefee) = bf.checked_mul(U256::from(coef.deconstruct()))
-						{
-							// Normalize to GWEI.
-							let decrease = scaled_basefee
-								.checked_div(U256::from(1_000_000))
-								.unwrap_or(U256::zero());
-							*bf = bf.saturating_sub(U256::from(decrease));
-							Self::deposit_event(Event::NewBaseFeePerGas(*bf));
-						} else {
-							Self::deposit_event(Event::BaseFeeOverflow);
+					// Modified vs. upstream to prevent the BaseFeePerGas going below `T::DefaultBaseFeePerGas`
+					let bf = Self::base_fee_per_gas();
+					if let Some(scaled_basefee) = bf.checked_mul(U256::from(coef.deconstruct())) {
+						// Normalize to GWEI.
+						let decrease = scaled_basefee
+							.checked_div(U256::from(1_000_000))
+							.unwrap_or(U256::zero());
+						let new_bf = bf.saturating_sub(U256::from(decrease));
+						if new_bf == T::DefaultBaseFeePerGas::get() {
+							return;
 						}
-					});
+						<BaseFeePerGas<T>>::put(max(new_bf, T::DefaultBaseFeePerGas::get()));
+					} else {
+						Self::deposit_event(Event::BaseFeeOverflow);
+					}
 				}
 			}
 		}
@@ -425,6 +427,23 @@ mod tests {
 			BaseFee::on_finalize(System::block_number());
 			// Expect the base fee to increase by 12.5%.
 			assert_eq!(BaseFee::base_fee_per_gas(), U256::from(1125000000));
+		});
+	}
+
+	#[test]
+	fn should_not_decrease_base_fee_below_default() {
+		let base_fee = U256::from(1_000_000);
+		new_test_ext(Some(base_fee)).execute_with(|| {
+			// Register empty block.
+			System::register_extra_weight_unchecked(0, DispatchClass::Normal);
+			assert_eq!(BaseFee::base_fee_per_gas(), U256::from(base_fee));
+			BaseFee::on_finalize(System::block_number());
+			// Expect fee to stay at `DefaultBaseFeePerGas`
+			assert_eq!(BaseFee::base_fee_per_gas(), U256::from(<Test as Config>::DefaultBaseFeePerGas::get()));
+
+			// Aaand again..
+			BaseFee::on_finalize(System::block_number() + 1);
+			assert_eq!(BaseFee::base_fee_per_gas(), U256::from(<Test as Config>::DefaultBaseFeePerGas::get()));
 		});
 	}
 

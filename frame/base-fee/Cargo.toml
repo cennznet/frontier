@@ -18,6 +18,7 @@ frame-support = { rev = "92f06d413796bb1443b31d92bde637c90742a077", default-feat
 frame-system = { rev = "92f06d413796bb1443b31d92bde637c90742a077", default-features = false, git = "https://github.com/cennznet/substrate" }
 sp-core = { rev = "92f06d413796bb1443b31d92bde637c90742a077", default-features = false, git = "https://github.com/cennznet/substrate" }
 sp-runtime = { rev = "92f06d413796bb1443b31d92bde637c90742a077", default-features = false, git = "https://github.com/cennznet/substrate" }
+sp-std = { rev = "92f06d413796bb1443b31d92bde637c90742a077", default-features = false, git = "https://github.com/cennznet/substrate" }
 pallet-evm = { path = "../evm", default-features = false }
 scale-info = { version = "1.0.0", default-features = false, features = ["derive"] }
 
@@ -31,6 +32,7 @@ std = [
 	"codec/std",
 	"sp-core/std",
 	"sp-runtime/std",
+	"sp-std/std",
 	"frame-support/std",
 	"frame-system/std",
 	"pallet-evm/std",

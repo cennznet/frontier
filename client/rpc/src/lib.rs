@@ -227,9 +227,11 @@ pub fn error_on_execution_failure(reason: &ExitReason, data: &[u8]) -> Result<()
 			// should contain a utf-8 encoded revert reason.
 			if data.len() > 68 {
 				let message_len = data[36..68].iter().sum::<u8>();
-				let body: &[u8] = &data[68..68 + message_len as usize];
-				if let Ok(reason) = std::str::from_utf8(body) {
-					message = format!("{} {}", message, reason.to_string());
+				if data.len() >= 68 + message_len as usize {
+					let body: &[u8] = &data[68..68 + message_len as usize];
+					if let Ok(reason) = std::str::from_utf8(body) {
+						message = format!("{} {}", message, reason.to_string());
+					}
 				}
 			}
 			Err(Error {
@@ -301,18 +303,20 @@ impl EthDevSigner {
 	}
 }
 
+fn secret_key_address(secret: &secp256k1::SecretKey) -> H160 {
+	let public = secp256k1::PublicKey::from_secret_key(secret);
+	public_key_address(&public)
+}
+
+fn public_key_address(public: &secp256k1::PublicKey) -> H160 {
+	let mut res = [0u8; 64];
+	res.copy_from_slice(&public.serialize()[1..65]);
+	H160::from(H256::from_slice(Keccak256::digest(&res).as_slice()))
+}
+
 impl EthSigner for EthDevSigner {
 	fn accounts(&self) -> Vec<H160> {
-		self.keys
-			.iter()
-			.map(|secret| {
-				let public = secp256k1::PublicKey::from_secret_key(secret);
-				let mut res = [0u8; 64];
-				res.copy_from_slice(&public.serialize()[1..65]);
-
-				H160::from(H256::from_slice(Keccak256::digest(&res).as_slice()))
-			})
-			.collect()
+		self.keys.iter().map(secret_key_address).collect()
 	}
 
 	fn sign(
@@ -323,12 +327,7 @@ impl EthSigner for EthDevSigner {
 		let mut transaction = None;
 
 		for secret in &self.keys {
-			let key_address = {
-				let public = secp256k1::PublicKey::from_secret_key(secret);
-				let mut res = [0u8; 64];
-				res.copy_from_slice(&public.serialize()[1..65]);
-				H160::from(H256::from_slice(Keccak256::digest(&res).as_slice()))
-			};
+			let key_address = secret_key_address(secret);
 
 			if &key_address == address {
 				match message {
