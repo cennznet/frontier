@@ -14,47 +14,47 @@ publish = false
 targets = ["x86_64-unknown-linux-gnu"]
 
 [dependencies]
-structopt = "0.3.8"
 async-trait = "0.1"
-jsonrpc-pubsub = "18.0.0"
+clap = { version = "3.1", features = ["derive"] }
 futures = "0.3"
+jsonrpc-core = "18.0.0"
+jsonrpc-pubsub = "18.0.0"
 log = "0.4.8"
 
-sc-cli = { git = "https://github.com/cennznet/substrate", rev = "92f06d413796bb1443b31d92bde637c90742a077", features = ["wasmtime"] }
-sp-core = { git = "https://github.com/cennznet/substrate", rev = "92f06d413796bb1443b31d92bde637c90742a077" }
-sc-executor = { git = "https://github.com/cennznet/substrate", rev = "92f06d413796bb1443b31d92bde637c90742a077", features = ["wasmtime"] }
-sc-service = { git = "https://github.com/cennznet/substrate", rev = "92f06d413796bb1443b31d92bde637c90742a077", features = ["wasmtime"] }
-sc-telemetry = { git = "https://github.com/cennznet/substrate", rev = "92f06d413796bb1443b31d92bde637c90742a077" }
-sc-keystore = { git = "https://github.com/cennznet/substrate", rev = "92f06d413796bb1443b31d92bde637c90742a077" }
-sc-transaction-pool = { git = "https://github.com/cennznet/substrate", rev = "92f06d413796bb1443b31d92bde637c90742a077" }
-sc-transaction-pool-api = { git = "https://github.com/cennznet/substrate", rev = "92f06d413796bb1443b31d92bde637c90742a077" }
-sc-consensus-aura = { git = "https://github.com/cennznet/substrate", rev = "92f06d413796bb1443b31d92bde637c90742a077" }
-sp-consensus-aura = { git = "https://github.com/cennznet/substrate", rev = "92f06d413796bb1443b31d92bde637c90742a077" }
-sp-consensus = { git = "https://github.com/cennznet/substrate", rev = "92f06d413796bb1443b31d92bde637c90742a077" }
-sc-consensus = { git = "https://github.com/cennznet/substrate", rev = "92f06d413796bb1443b31d92bde637c90742a077" }
-sc-consensus-manual-seal = { git = "https://github.com/cennznet/substrate", rev = "92f06d413796bb1443b31d92bde637c90742a077" }
-sc-network = { git = "https://github.com/cennznet/substrate", rev = "92f06d413796bb1443b31d92bde637c90742a077" }
-sc-finality-grandpa = { git = "https://github.com/cennznet/substrate", rev = "92f06d413796bb1443b31d92bde637c90742a077" }
-sp-finality-grandpa = { git = "https://github.com/cennznet/substrate", rev = "92f06d413796bb1443b31d92bde637c90742a077" }
-sc-client-api = { git = "https://github.com/cennznet/substrate", rev = "92f06d413796bb1443b31d92bde637c90742a077" }
-sp-runtime = { git = "https://github.com/cennznet/substrate", rev = "92f06d413796bb1443b31d92bde637c90742a077" }
-sp-timestamp = { git = "https://github.com/cennznet/substrate", rev = "92f06d413796bb1443b31d92bde637c90742a077" }
-sp-inherents = { git = "https://github.com/cennznet/substrate", rev = "92f06d413796bb1443b31d92bde637c90742a077" }
+sc-cli = { git = "https://github.com/cennznet/substrate", rev = "254219721084b533626ffa16b74c415771d46747", features = ["wasmtime"] }
+sp-core = { git = "https://github.com/cennznet/substrate", rev = "254219721084b533626ffa16b74c415771d46747" }
+sc-executor = { git = "https://github.com/cennznet/substrate", rev = "254219721084b533626ffa16b74c415771d46747", features = ["wasmtime"] }
+sc-service = { git = "https://github.com/cennznet/substrate", rev = "254219721084b533626ffa16b74c415771d46747", features = ["wasmtime"] }
+sc-telemetry = { git = "https://github.com/cennznet/substrate", rev = "254219721084b533626ffa16b74c415771d46747" }
+sc-keystore = { git = "https://github.com/cennznet/substrate", rev = "254219721084b533626ffa16b74c415771d46747" }
+sc-transaction-pool = { git = "https://github.com/cennznet/substrate", rev = "254219721084b533626ffa16b74c415771d46747" }
+sc-transaction-pool-api = { git = "https://github.com/cennznet/substrate", rev = "254219721084b533626ffa16b74c415771d46747" }
+sc-consensus-aura = { git = "https://github.com/cennznet/substrate", rev = "254219721084b533626ffa16b74c415771d46747" }
+sp-consensus-aura = { git = "https://github.com/cennznet/substrate", rev = "254219721084b533626ffa16b74c415771d46747" }
+sp-consensus = { git = "https://github.com/cennznet/substrate", rev = "254219721084b533626ffa16b74c415771d46747" }
+sc-consensus = { git = "https://github.com/cennznet/substrate", rev = "254219721084b533626ffa16b74c415771d46747" }
+sc-consensus-manual-seal = { git = "https://github.com/cennznet/substrate", rev = "254219721084b533626ffa16b74c415771d46747" }
+sc-network = { git = "https://github.com/cennznet/substrate", rev = "254219721084b533626ffa16b74c415771d46747" }
+sc-finality-grandpa = { git = "https://github.com/cennznet/substrate", rev = "254219721084b533626ffa16b74c415771d46747" }
+sp-finality-grandpa = { git = "https://github.com/cennznet/substrate", rev = "254219721084b533626ffa16b74c415771d46747" }
+sc-client-api = { git = "https://github.com/cennznet/substrate", rev = "254219721084b533626ffa16b74c415771d46747" }
+sp-runtime = { git = "https://github.com/cennznet/substrate", rev = "254219721084b533626ffa16b74c415771d46747" }
+sp-timestamp = { git = "https://github.com/cennznet/substrate", rev = "254219721084b533626ffa16b74c415771d46747" }
+sp-inherents = { git = "https://github.com/cennznet/substrate", rev = "254219721084b533626ffa16b74c415771d46747" }
 
 # These dependencies are used for the node template's RPCs
-jsonrpc-core = "18.0.0"
-sc-rpc = { git = "https://github.com/cennznet/substrate", rev = "92f06d413796bb1443b31d92bde637c90742a077" }
-sp-api = { git = "https://github.com/cennznet/substrate", rev = "92f06d413796bb1443b31d92bde637c90742a077" }
-sc-rpc-api = { git = "https://github.com/cennznet/substrate", rev = "92f06d413796bb1443b31d92bde637c90742a077" }
-sp-blockchain = { git = "https://github.com/cennznet/substrate", rev = "92f06d413796bb1443b31d92bde637c90742a077" }
-sp-block-builder = { git = "https://github.com/cennznet/substrate", rev = "92f06d413796bb1443b31d92bde637c90742a077" }
-sc-basic-authorship = { git = "https://github.com/cennznet/substrate", rev = "92f06d413796bb1443b31d92bde637c90742a077" }
-substrate-frame-rpc-system = { git = "https://github.com/cennznet/substrate", rev = "92f06d413796bb1443b31d92bde637c90742a077" }
-pallet-transaction-payment-rpc = { git = "https://github.com/cennznet/substrate", rev = "92f06d413796bb1443b31d92bde637c90742a077" }
+sc-rpc = { git = "https://github.com/cennznet/substrate", rev = "254219721084b533626ffa16b74c415771d46747" }
+sp-api = { git = "https://github.com/cennznet/substrate", rev = "254219721084b533626ffa16b74c415771d46747" }
+sc-rpc-api = { git = "https://github.com/cennznet/substrate", rev = "254219721084b533626ffa16b74c415771d46747" }
+sp-blockchain = { git = "https://github.com/cennznet/substrate", rev = "254219721084b533626ffa16b74c415771d46747" }
+sp-block-builder = { git = "https://github.com/cennznet/substrate", rev = "254219721084b533626ffa16b74c415771d46747" }
+sc-basic-authorship = { git = "https://github.com/cennznet/substrate", rev = "254219721084b533626ffa16b74c415771d46747" }
+substrate-frame-rpc-system = { git = "https://github.com/cennznet/substrate", rev = "254219721084b533626ffa16b74c415771d46747" }
+pallet-transaction-payment-rpc = { git = "https://github.com/cennznet/substrate", rev = "254219721084b533626ffa16b74c415771d46747" }
 
 # These dependencies are used for runtime benchmarking
-frame-benchmarking = { git = "https://github.com/cennznet/substrate", rev = "92f06d413796bb1443b31d92bde637c90742a077" }
-frame-benchmarking-cli = { git = "https://github.com/cennznet/substrate", rev = "92f06d413796bb1443b31d92bde637c90742a077" }
+frame-benchmarking = { git = "https://github.com/cennznet/substrate", rev = "254219721084b533626ffa16b74c415771d46747" }
+frame-benchmarking-cli = { git = "https://github.com/cennznet/substrate", rev = "254219721084b533626ffa16b74c415771d46747" }
 
 fc-consensus = { path = "../../client/consensus" }
 fp-consensus = { path = "../../primitives/consensus" }
@@ -72,7 +72,7 @@ pallet-dynamic-fee = { path = "../../frame/dynamic-fee" }
 pallet-base-fee = { path = "../../frame/base-fee" }
 
 [build-dependencies]
-substrate-build-script-utils = { git = "https://github.com/cennznet/substrate", rev = "92f06d413796bb1443b31d92bde637c90742a077" }
+substrate-build-script-utils = { git = "https://github.com/cennznet/substrate", rev = "254219721084b533626ffa16b74c415771d46747" }
 
 [features]
 default = ["aura"]

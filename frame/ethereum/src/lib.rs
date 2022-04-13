@@ -33,7 +33,6 @@ use fp_storage::{EthereumStorageSchema, PALLET_ETHEREUM_SCHEMA};
 use frame_support::traits::OnRuntimeUpgradeHelpersExt;
 use frame_support::{
 	dispatch::DispatchResultWithPostInfo,
-	scale_info::TypeInfo,
 	traits::{EnsureOrigin, Get, PalletInfoAccess},
 	weights::{Pays, PostDispatchInfo, Weight},
 };
@@ -178,6 +177,7 @@ pub mod pallet {
 
 	#[pallet::pallet]
 	#[pallet::generate_store(pub(super) trait Store)]
+	#[pallet::without_storage_info]
 	pub struct Pallet<T>(PhantomData<T>);
 
 	#[pallet::origin]
@@ -348,7 +348,7 @@ impl<T: Config> Pallet<T> {
 				access_list: t
 					.access_list
 					.iter()
-					.map(|d| (d.address, d.slots.clone()))
+					.map(|d| (d.address, d.storage_keys.clone()))
 					.collect(),
 			},
 			Transaction::EIP1559(t) => TransactionData {
@@ -364,7 +364,7 @@ impl<T: Config> Pallet<T> {
 				access_list: t
 					.access_list
 					.iter()
-					.map(|d| (d.address, d.slots.clone()))
+					.map(|d| (d.address, d.storage_keys.clone()))
 					.collect(),
 			},
 		}
@@ -759,7 +759,7 @@ impl<T: Config> Pallet<T> {
 					let access_list: Vec<(H160, Vec<H256>)> = t
 						.access_list
 						.iter()
-						.map(|item| (item.address, item.slots.clone()))
+						.map(|item| (item.address, item.storage_keys.clone()))
 						.collect();
 					(
 						t.input.clone(),
@@ -776,7 +776,7 @@ impl<T: Config> Pallet<T> {
 					let access_list: Vec<(H160, Vec<H256>)> = t
 						.access_list
 						.iter()
-						.map(|item| (item.address, item.slots.clone()))
+						.map(|item| (item.address, item.storage_keys.clone()))
 						.collect();
 					(
 						t.input.clone(),
@@ -924,10 +924,11 @@ pub enum ReturnValue {
 	Hash(H160),
 }
 
-pub struct IntermediateStateRoot;
-impl Get<H256> for IntermediateStateRoot {
+pub struct IntermediateStateRoot<T>(PhantomData<T>);
+impl<T: Config> Get<H256> for IntermediateStateRoot<T> {
 	fn get() -> H256 {
-		H256::decode(&mut &sp_io::storage::root()[..])
+		let version = T::Version::get().state_version();
+		H256::decode(&mut &sp_io::storage::root(version)[..])
 			.expect("Node is configured to use the same hash; qed")
 	}
 }

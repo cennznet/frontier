@@ -10,29 +10,29 @@ resolver = "2"
 [dependencies]
 rustc-hex = { version = "2.1.0", default-features = false }
 serde = { version = "1.0.101", optional = true }
-codec = { package = "parity-scale-codec", version = "2.0.0", default-features = false }
-frame-support = { rev = "92f06d413796bb1443b31d92bde637c90742a077", default-features = false, git = "https://github.com/cennznet/substrate" }
-frame-system = { rev = "92f06d413796bb1443b31d92bde637c90742a077", default-features = false, git = "https://github.com/cennznet/substrate" }
-pallet-balances = { rev = "92f06d413796bb1443b31d92bde637c90742a077", default-features = false, git = "https://github.com/cennznet/substrate" }
-pallet-timestamp = { rev = "92f06d413796bb1443b31d92bde637c90742a077", default-features = false, git = "https://github.com/cennznet/substrate" }
+codec = { package = "parity-scale-codec", version = "3.0.0", default-features = false }
+frame-support = { rev = "254219721084b533626ffa16b74c415771d46747", default-features = false, git = "https://github.com/cennznet/substrate" }
+frame-system = { rev = "254219721084b533626ffa16b74c415771d46747", default-features = false, git = "https://github.com/cennznet/substrate" }
+pallet-balances = { rev = "254219721084b533626ffa16b74c415771d46747", default-features = false, git = "https://github.com/cennznet/substrate" }
+pallet-timestamp = { rev = "254219721084b533626ffa16b74c415771d46747", default-features = false, git = "https://github.com/cennznet/substrate" }
 pallet-evm = { version = "6.0.0-dev", default-features = false, path = "../evm" }
-sp-runtime = { rev = "92f06d413796bb1443b31d92bde637c90742a077", default-features = false, git = "https://github.com/cennznet/substrate" }
-sp-std = { rev = "92f06d413796bb1443b31d92bde637c90742a077", default-features = false, git = "https://github.com/cennznet/substrate" }
-sp-io = { rev = "92f06d413796bb1443b31d92bde637c90742a077", default-features = false, git = "https://github.com/cennznet/substrate" }
+sp-runtime = { rev = "254219721084b533626ffa16b74c415771d46747", default-features = false, git = "https://github.com/cennznet/substrate" }
+sp-std = { rev = "254219721084b533626ffa16b74c415771d46747", default-features = false, git = "https://github.com/cennznet/substrate" }
+sp-io = { rev = "254219721084b533626ffa16b74c415771d46747", default-features = false, git = "https://github.com/cennznet/substrate" }
 fp-evm = { version = "3.0.0-dev", default-features = false, path = "../../primitives/evm" }
-evm = { git = "https://github.com/rust-blockchain/evm", rev = "52d5fe5d1fd665a495ea34cc67c5f0c6bc6dd23e", features = ["with-codec"], default-features = false }
-ethereum = { version = "0.11.1", default-features = false, features = ["with-codec"] }
-ethereum-types = { version = "0.12", default-features = false }
+evm = { git = "https://github.com/rust-blockchain/evm", rev = "0b686f8c2c83a52638917caa649dc23302fda80d", features = ["with-codec"], default-features = false }
+ethereum = { version = "0.12.0",  default-features = false, features = ["with-codec", "with-serde"] }
+ethereum-types = { version = "0.13.1", default-features = false }
 rlp = { version = "0.5", default-features = false }
 sha3 = { version = "0.8", default-features = false }
 fp-consensus = { version = "2.0.0-dev", path = "../../primitives/consensus", default-features = false }
 fp-rpc = { version = "3.0.0-dev", path = "../../primitives/rpc", default-features = false }
 fp-storage = { version = "2.0.0", path = "../../primitives/storage", default-features = false }
 fp-self-contained = { version = "1.0.0-dev", path = "../../primitives/self-contained", default-features = false }
-scale-info = { version = "1.0.0", default-features = false, features = ["derive"] }
+scale-info = { version = "2.0.0", default-features = false, features = ["derive"] }
 
 [dev-dependencies]
-sp-core = { rev = "92f06d413796bb1443b31d92bde637c90742a077", git = "https://github.com/cennznet/substrate" }
+sp-core = { rev = "254219721084b533626ffa16b74c415771d46747", git = "https://github.com/cennznet/substrate" }
 libsecp256k1 = { version = "0.5", features = ["static-context", "hmac"] }
 
 [features]

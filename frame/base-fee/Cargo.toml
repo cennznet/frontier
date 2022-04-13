@@ -13,17 +13,17 @@ targets = ["x86_64-unknown-linux-gnu"]
 
 [dependencies]
 serde = { version = "1.0.101", optional = true }
-codec = { package = "parity-scale-codec", version = "2.0.0", default-features = false }
-frame-support = { rev = "92f06d413796bb1443b31d92bde637c90742a077", default-features = false, git = "https://github.com/cennznet/substrate" }
-frame-system = { rev = "92f06d413796bb1443b31d92bde637c90742a077", default-features = false, git = "https://github.com/cennznet/substrate" }
-sp-core = { rev = "92f06d413796bb1443b31d92bde637c90742a077", default-features = false, git = "https://github.com/cennznet/substrate" }
-sp-runtime = { rev = "92f06d413796bb1443b31d92bde637c90742a077", default-features = false, git = "https://github.com/cennznet/substrate" }
-sp-std = { rev = "92f06d413796bb1443b31d92bde637c90742a077", default-features = false, git = "https://github.com/cennznet/substrate" }
+codec = { package = "parity-scale-codec", version = "3.0.0", default-features = false }
+frame-support = { rev = "254219721084b533626ffa16b74c415771d46747", default-features = false, git = "https://github.com/cennznet/substrate" }
+frame-system = { rev = "254219721084b533626ffa16b74c415771d46747", default-features = false, git = "https://github.com/cennznet/substrate" }
+sp-core = { rev = "254219721084b533626ffa16b74c415771d46747", default-features = false, git = "https://github.com/cennznet/substrate" }
+sp-runtime = { rev = "254219721084b533626ffa16b74c415771d46747", default-features = false, git = "https://github.com/cennznet/substrate" }
+sp-std = { rev = "254219721084b533626ffa16b74c415771d46747", default-features = false, git = "https://github.com/cennznet/substrate" }
 pallet-evm = { path = "../evm", default-features = false }
-scale-info = { version = "1.0.0", default-features = false, features = ["derive"] }
+scale-info = { version = "2.0.0", default-features = false, features = ["derive"] }
 
 [dev-dependencies]
-sp-io = { rev = "92f06d413796bb1443b31d92bde637c90742a077", default-features = false, git = "https://github.com/cennznet/substrate" }
+sp-io = { rev = "254219721084b533626ffa16b74c415771d46747", default-features = false, git = "https://github.com/cennznet/substrate" }
 
 [features]
 default = ["std"]

@@ -14,26 +14,26 @@ targets = ["x86_64-unknown-linux-gnu"]
 
 [dependencies]
 serde = { version = "1.0.101", optional = true, features = ["derive"] }
-codec = { package = "parity-scale-codec", version = "2.0.0", default-features = false }
-frame-support = { rev = "92f06d413796bb1443b31d92bde637c90742a077", default-features = false, git = "https://github.com/cennznet/substrate" }
-frame-system = { rev = "92f06d413796bb1443b31d92bde637c90742a077", default-features = false, git = "https://github.com/cennznet/substrate" }
-pallet-timestamp = { rev = "92f06d413796bb1443b31d92bde637c90742a077", default-features = false, git = "https://github.com/cennznet/substrate" }
-pallet-balances = { rev = "92f06d413796bb1443b31d92bde637c90742a077", default-features = false, git = "https://github.com/cennznet/substrate" }
-sp-core = { rev = "92f06d413796bb1443b31d92bde637c90742a077", default-features = false, git = "https://github.com/cennznet/substrate" }
-sp-runtime = { rev = "92f06d413796bb1443b31d92bde637c90742a077", default-features = false, git = "https://github.com/cennznet/substrate" }
-sp-std = { rev = "92f06d413796bb1443b31d92bde637c90742a077", default-features = false, git = "https://github.com/cennznet/substrate" }
-sp-io = { rev = "92f06d413796bb1443b31d92bde637c90742a077", default-features = false, git = "https://github.com/cennznet/substrate" }
-frame-benchmarking = { rev = "92f06d413796bb1443b31d92bde637c90742a077", git = "https://github.com/cennznet/substrate", default-features = false, optional = true }
+codec = { package = "parity-scale-codec", version = "3.0.0", default-features = false }
+frame-support = { rev = "254219721084b533626ffa16b74c415771d46747", default-features = false, git = "https://github.com/cennznet/substrate" }
+frame-system = { rev = "254219721084b533626ffa16b74c415771d46747", default-features = false, git = "https://github.com/cennznet/substrate" }
+pallet-timestamp = { rev = "254219721084b533626ffa16b74c415771d46747", default-features = false, git = "https://github.com/cennznet/substrate" }
+pallet-balances = { rev = "254219721084b533626ffa16b74c415771d46747", default-features = false, git = "https://github.com/cennznet/substrate" }
+sp-core = { rev = "254219721084b533626ffa16b74c415771d46747", default-features = false, git = "https://github.com/cennznet/substrate" }
+sp-runtime = { rev = "254219721084b533626ffa16b74c415771d46747", default-features = false, git = "https://github.com/cennznet/substrate" }
+sp-std = { rev = "254219721084b533626ffa16b74c415771d46747", default-features = false, git = "https://github.com/cennznet/substrate" }
+sp-io = { rev = "254219721084b533626ffa16b74c415771d46747", default-features = false, git = "https://github.com/cennznet/substrate" }
+frame-benchmarking = { rev = "254219721084b533626ffa16b74c415771d46747", git = "https://github.com/cennznet/substrate", default-features = false, optional = true }
 fp-evm = { version = "3.0.0-dev", default-features = false, path = "../../primitives/evm" }
 primitive-types = { version = "0.10.0", default-features = false, features = ["rlp", "byteorder"] }
 rlp = { version = "0.5", default-features = false }
-evm = { git = "https://github.com/rust-blockchain/evm", rev = "52d5fe5d1fd665a495ea34cc67c5f0c6bc6dd23e", default-features = false, features = ["with-codec"] }
-evm-runtime = { git = "https://github.com/rust-blockchain/evm", rev = "52d5fe5d1fd665a495ea34cc67c5f0c6bc6dd23e", default-features = false }
-evm-gasometer = { git = "https://github.com/rust-blockchain/evm", rev = "52d5fe5d1fd665a495ea34cc67c5f0c6bc6dd23e", default-features = false }
+evm = { git = "https://github.com/rust-blockchain/evm", rev = "0b686f8c2c83a52638917caa649dc23302fda80d", default-features = false, features = ["with-codec"] }
+evm-runtime = { git = "https://github.com/rust-blockchain/evm", rev = "0b686f8c2c83a52638917caa649dc23302fda80d", default-features = false }
+evm-gasometer = { git = "https://github.com/rust-blockchain/evm", rev = "0b686f8c2c83a52638917caa649dc23302fda80d", default-features = false }
 sha3 = { version = "0.8", default-features = false }
 log = { version = "0.4", default-features = false }
 hex = { version = "0.4", default-features = false }
-scale-info = { version = "1.0.0", default-features = false, features = ["derive"] }
+scale-info = { version = "2.0.0", default-features = false, features = ["derive"] }
 
 [features]
 default = ["std"]

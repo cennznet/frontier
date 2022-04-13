@@ -12,31 +12,31 @@ jsonrpc-derive = "18.0"
 jsonrpc-core-client = "18.0"
 jsonrpc-pubsub = "18.0"
 log = "0.4.8"
-ethereum-types = "0.12"
-evm = { git = "https://github.com/rust-blockchain/evm", rev = "52d5fe5d1fd665a495ea34cc67c5f0c6bc6dd23e", default-features = false, features = ["with-codec"] }
+ethereum-types = "0.13.1"
+evm = { git = "https://github.com/rust-blockchain/evm", rev = "0b686f8c2c83a52638917caa649dc23302fda80d", default-features = false, features = ["with-codec"] }
 fc-consensus = { version = "2.0.0-dev", path = "../consensus" }
 fc-db = { version = "2.0.0-dev", path = "../db" }
 fc-rpc-core = { version = "1.1.0-dev", path = "../rpc-core" }
 fp-consensus = { version = "2.0.0-dev", path = "../../primitives/consensus" }
 fp-rpc = { version = "3.0.0-dev", path = "../../primitives/rpc" }
 fp-storage = { version = "2.0.0-dev", path = "../../primitives/storage"}
-sp-io = { rev = "92f06d413796bb1443b31d92bde637c90742a077", git = "https://github.com/cennznet/substrate" }
-sp-runtime = { rev = "92f06d413796bb1443b31d92bde637c90742a077", git = "https://github.com/cennznet/substrate" }
-sp-api = { rev = "92f06d413796bb1443b31d92bde637c90742a077", git = "https://github.com/cennznet/substrate" }
-sp-transaction-pool = { rev = "92f06d413796bb1443b31d92bde637c90742a077", git = "https://github.com/cennznet/substrate" }
-sc-transaction-pool = { rev = "92f06d413796bb1443b31d92bde637c90742a077", git = "https://github.com/cennznet/substrate" }
-sp-storage = { rev = "92f06d413796bb1443b31d92bde637c90742a077", git = "https://github.com/cennznet/substrate" }
-sp-blockchain = { rev = "92f06d413796bb1443b31d92bde637c90742a077", git = "https://github.com/cennznet/substrate" }
-sp-block-builder = { rev = "92f06d413796bb1443b31d92bde637c90742a077", git = "https://github.com/cennznet/substrate" }
-sc-transaction-pool-api = { rev = "92f06d413796bb1443b31d92bde637c90742a077", git = "https://github.com/cennznet/substrate" }
-sc-service = { rev = "92f06d413796bb1443b31d92bde637c90742a077", version = "0.10.0-dev", git = "https://github.com/cennznet/substrate" }
-sc-client-api = { rev = "92f06d413796bb1443b31d92bde637c90742a077", git = "https://github.com/cennznet/substrate" }
-sc-rpc = { rev = "92f06d413796bb1443b31d92bde637c90742a077", git = "https://github.com/cennznet/substrate" }
-sc-network = { rev = "92f06d413796bb1443b31d92bde637c90742a077", version = "0.10.0-dev", git = "https://github.com/cennznet/substrate" }
+sp-io = { rev = "254219721084b533626ffa16b74c415771d46747", git = "https://github.com/cennznet/substrate" }
+sp-runtime = { rev = "254219721084b533626ffa16b74c415771d46747", git = "https://github.com/cennznet/substrate" }
+sp-api = { rev = "254219721084b533626ffa16b74c415771d46747", git = "https://github.com/cennznet/substrate" }
+sp-transaction-pool = { rev = "254219721084b533626ffa16b74c415771d46747", git = "https://github.com/cennznet/substrate" }
+sc-transaction-pool = { rev = "254219721084b533626ffa16b74c415771d46747", git = "https://github.com/cennznet/substrate" }
+sp-storage = { rev = "254219721084b533626ffa16b74c415771d46747", git = "https://github.com/cennznet/substrate" }
+sp-blockchain = { rev = "254219721084b533626ffa16b74c415771d46747", git = "https://github.com/cennznet/substrate" }
+sp-block-builder = { rev = "254219721084b533626ffa16b74c415771d46747", git = "https://github.com/cennznet/substrate" }
+sc-transaction-pool-api = { rev = "254219721084b533626ffa16b74c415771d46747", git = "https://github.com/cennznet/substrate" }
+sc-service = { rev = "254219721084b533626ffa16b74c415771d46747", version = "0.10.0-dev", git = "https://github.com/cennznet/substrate" }
+sc-client-api = { rev = "254219721084b533626ffa16b74c415771d46747", git = "https://github.com/cennznet/substrate" }
+sc-rpc = { rev = "254219721084b533626ffa16b74c415771d46747", git = "https://github.com/cennznet/substrate" }
+sc-network = { rev = "254219721084b533626ffa16b74c415771d46747", version = "0.10.0-dev", git = "https://github.com/cennznet/substrate" }
 pallet-evm = { version = "6.0.0-dev", path = "../../frame/evm" }
 fp-evm = { version = "3.0.0-dev", path = "../../primitives/evm" }
-ethereum = { version = "0.11.1", features = ["with-codec"] }
-codec = { package = "parity-scale-codec", version = "2.0.0" }
+ethereum = { version = "0.12.0",  features = ["with-codec", "with-serde"] }
+codec = { package = "parity-scale-codec", version = "3.0.0" }
 rlp = "0.5"
 futures = { version = "0.3.1", features = ["compat"] }
 sha3 = "0.8"

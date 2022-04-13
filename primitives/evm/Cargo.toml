@@ -13,11 +13,11 @@ documentation = "https://docs.rs/sp-evm"
 targets = ["x86_64-unknown-linux-gnu"]
 
 [dependencies]
-sp-core = { rev = "92f06d413796bb1443b31d92bde637c90742a077", git = "https://github.com/cennznet/substrate", default-features = false }
-sp-std = { rev = "92f06d413796bb1443b31d92bde637c90742a077", git = "https://github.com/cennznet/substrate", default-features = false }
+sp-core = { rev = "254219721084b533626ffa16b74c415771d46747", git = "https://github.com/cennznet/substrate", default-features = false }
+sp-std = { rev = "254219721084b533626ffa16b74c415771d46747", git = "https://github.com/cennznet/substrate", default-features = false }
 serde = { version = "1.0.101", optional = true, features = ["derive"] }
-codec = { package = "parity-scale-codec", version = "2.0.0", default-features = false }
-evm = { git = "https://github.com/rust-blockchain/evm", rev = "52d5fe5d1fd665a495ea34cc67c5f0c6bc6dd23e", default-features = false, features = ["with-codec"] }
+codec = { package = "parity-scale-codec", version = "3.0.0", default-features = false }
+evm = { git = "https://github.com/rust-blockchain/evm", rev = "0b686f8c2c83a52638917caa649dc23302fda80d", default-features = false, features = ["with-codec"] }
 
 [features]
 default = ["std"]

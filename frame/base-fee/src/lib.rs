@@ -439,11 +439,17 @@ mod tests {
 			assert_eq!(BaseFee::base_fee_per_gas(), U256::from(base_fee));
 			BaseFee::on_finalize(System::block_number());
 			// Expect fee to stay at `DefaultBaseFeePerGas`
-			assert_eq!(BaseFee::base_fee_per_gas(), U256::from(<Test as Config>::DefaultBaseFeePerGas::get()));
+			assert_eq!(
+				BaseFee::base_fee_per_gas(),
+				U256::from(<Test as Config>::DefaultBaseFeePerGas::get())
+			);
 
 			// Aaand again..
 			BaseFee::on_finalize(System::block_number() + 1);
-			assert_eq!(BaseFee::base_fee_per_gas(), U256::from(<Test as Config>::DefaultBaseFeePerGas::get()));
+			assert_eq!(
+				BaseFee::base_fee_per_gas(),
+				U256::from(<Test as Config>::DefaultBaseFeePerGas::get())
+			);
 		});
 	}
 
