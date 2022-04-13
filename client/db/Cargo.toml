@@ -8,11 +8,11 @@ license = "GPL-3.0-or-later WITH Classpath-exception-2.0"
 repository = "https://github.com/paritytech/frontier/"
 
 [dependencies]
-sp-core = { rev = "92f06d413796bb1443b31d92bde637c90742a077", git = "https://github.com/cennznet/substrate" }
-sp-database = { rev = "92f06d413796bb1443b31d92bde637c90742a077", git = "https://github.com/cennznet/substrate" }
-sp-runtime = { rev = "92f06d413796bb1443b31d92bde637c90742a077", git = "https://github.com/cennznet/substrate" }
-fp-storage = { version = "2.0.0-dev", path = "../../primitives/storage"}
-kvdb = "0.10.0"
-kvdb-rocksdb = "0.14.0"
-codec = { package = "parity-scale-codec", version = "2.0.0", features = ["derive"] }
+kvdb-rocksdb = "0.15.2"
 parking_lot = "0.11.1"
+
+codec = { package = "parity-scale-codec", version = "3.0.0", features = ["derive"] }
+sp-core = { rev = "254219721084b533626ffa16b74c415771d46747", git = "https://github.com/cennznet/substrate" }
+sp-database = { rev = "254219721084b533626ffa16b74c415771d46747", git = "https://github.com/cennznet/substrate" }
+sp-runtime = { rev = "254219721084b533626ffa16b74c415771d46747", git = "https://github.com/cennznet/substrate" }
+fp-storage = { version = "2.0.0-dev", path = "../../primitives/storage"}

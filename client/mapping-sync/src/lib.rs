@@ -20,9 +20,9 @@ mod worker;
 
 pub use worker::{MappingSyncWorker, SyncStrategy};
 
-use log::{debug, warn};
 use fp_consensus::FindLogError;
 use fp_rpc::EthereumRuntimeRPCApi;
+use log::{debug, warn};
 use sc_client_api::BlockOf;
 use sp_api::{ApiExt, ProvideRuntimeApi};
 use sp_blockchain::HeaderBackend;
@@ -129,7 +129,7 @@ where
 	let operating_header = match operating_header {
 		Some(operating_header) => operating_header,
 		None => {
-		debug!(target: "mapping-sync", "already synced tip");
+			debug!(target: "mapping-sync", "already synced tip");
 			frontier_backend
 				.meta()
 				.write_current_syncing_tips(current_syncing_tips)?;

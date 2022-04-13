@@ -10,16 +10,18 @@ description = "Primitive Ethereum abstractions for Substrate."
 documentation = "https://docs.rs/fp-ethereum"
 
 [dependencies]
+ethereum = { version = "0.12.0",  default-features = false, features = ["with-codec", "with-serde"] }
 serde = { version = "1.0.101", optional = true, features = ["derive"] }
-codec = { package = "parity-scale-codec", version = "2.0.0", default-features = false }
-ethereum = { version = "0.11.1", default-features = false, features = ["with-codec"] }
-sp-core = { rev = "92f06d413796bb1443b31d92bde637c90742a077", git = "https://github.com/cennznet/substrate", default-features = false }
-sp-runtime = { rev = "92f06d413796bb1443b31d92bde637c90742a077", git = "https://github.com/cennznet/substrate", default-features = false }
-sp-io = { rev = "92f06d413796bb1443b31d92bde637c90742a077", git = "https://github.com/cennznet/substrate", default-features = false }
-scale-info = { version = "1.0.0", default-features = false, features = ["derive"] }
-parity-util-mem = { version = "0.10.2", optional = true }
+
+codec = { package = "parity-scale-codec", version = "3.0.0", default-features = false }
+parity-util-mem = { version = "0.11", optional = true }
+scale-info = { version = "2.0.0", default-features = false, features = ["derive"] }
+sp-core = { rev = "254219721084b533626ffa16b74c415771d46747", git = "https://github.com/cennznet/substrate", default-features = false }
+sp-runtime = { rev = "254219721084b533626ffa16b74c415771d46747", git = "https://github.com/cennznet/substrate", default-features = false }
+sp-io = { rev = "254219721084b533626ffa16b74c415771d46747", git = "https://github.com/cennznet/substrate", default-features = false }
 sha3 = { version = "0.8", default-features = false }
-frame-support = { rev = "92f06d413796bb1443b31d92bde637c90742a077", git = "https://github.com/cennznet/substrate", default-features = false }
+
+frame-support = { rev = "254219721084b533626ffa16b74c415771d46747", git = "https://github.com/cennznet/substrate", default-features = false }
 
 [features]
 default = ["std"]
